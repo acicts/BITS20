@@ -1,0 +1,225 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(27, 27, 27);
+
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    border:  1px rgb(0, 0, 0);
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#right-panel, #middle-panel {
+    margin-top: 5%;
+    border: 0px solid rgba(0, 0, 0);
+    text-align: center; 
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+#middle-panel {
+    width: 50%;
+}
+
+#right-panel {
+    width: 20%;
+}
+
+#header {
+    width: 98%;
+    padding: 1%;
+    text-size-adjust: 20px;
+    background-color: rgb(219, 115, 17);
+    margin: auto;
+    color: white;
+}
+
+#task-claimed {
+    width: 95%;
+    background-color: rgb(44, 184, 39);
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+#right, #middle {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+#task-description {
+    display: flex;
+    border:  0px rgb(0, 0, 0);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-right: 8%;
+}
+
+#middle {
+    width: 80%;
+    height: fit-content;
+    margin-left: -20%;
+    
+}
+
+#right {
+    width: 20%;
+    height: fit-content;
+    margin-left: 20%;
+}
+
+#right button {
+    height: 40px;
+    width: 80%;
+    margin-top: 5%;
+}
+
+#mentors {
+    width: 100%;
+    margin-bottom: 130%;
+    text-align: left;
+}
+
+#time {
+    margin-top: -100%;
+    font-weight: 200;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: black;           /* Footer height */
+}
+
+.dark-mode {
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    color: white;
+}
+
+#mentors h5 {
+    text-align: center;
+    font-weight: 200;
+}
+
+.buttons p {
+    font-size: 14px;
+    margin-top: -7%;
+}
+
+
+#dark-mode {
+    background-size: 0px;
+    margin-left: 90%;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.description {
+    margin: auto;
+    padding-bottom: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 10px;
+    border-radius: 20px;
+    width: 60%;
+    
+}
+
+.any-problem {
+    width: 50%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.comment {
+    margin-left: 25%;
+    width: 60%;
+    resize: both;
+    overflow: auto;
+}
+    
+textarea {
+    resize: both;
+    overflow: auto;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#autoresizing { 
+    display: block; 
+    overflow: hidden; 
+    resize: none; 
+} 
+@media only screen and (max-width: 415px) {
+    #middle {
+        width: 100%;
+        font-size: 13px;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+    #right {
+        padding-top: 50%;
+        width: 100%;
+        margin: auto;
+    }
+
+    #mentors {
+        text-align: center;
+    }
+
+    #time {
+        text-align: center;
+    }
+
+    .buttons {
+        margin-left: 18%;
+    }
+
+    .buttons p {
+        font-size: 16px;
+    }
+
+    #task-description {
+        width:85%;
+    }
+
+    #middle-panel h2 {
+        font-size: 25px;
+    }
+
+    .description {
+        width: 85%;
+    }
+
+    .row {
+        text-align: left;
+    }
+
+    .any-problem {
+        width: 80%;
+    }
+  }
+
+@media only screen and (max-width : 320px) {
+    
+}
