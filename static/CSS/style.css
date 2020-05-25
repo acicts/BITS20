@@ -1,7 +1,25 @@
-body {
-    background: rgb(255, 255, 255);
-    color: rgb(27, 27, 27);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
 
+
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #202020;
+    --bg-color: rgb(226, 226, 226);
+    --heading-color: #ff9811;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #ffffff;
+    --bg-color: #00001f;
+    --heading-color: #002daa;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
 .row {
@@ -22,7 +40,6 @@ body {
     justify-content: center;
 }
 
-
 #middle-panel {
     width: 50%;
 }
@@ -35,7 +52,7 @@ body {
     width: 98%;
     padding: 1%;
     text-size-adjust: 20px;
-    background-color: rgb(219, 115, 17);
+    background-color: var(--heading-color);
     margin: auto;
     color: white;
 }
@@ -46,6 +63,9 @@ body {
     text-align: center;
     margin: auto;
     color: rgb(255, 255, 255);
+    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    box-shadow: -1px 2px 39px -11px var(--secondary-color);
 }
 
 #right, #middle {
@@ -67,7 +87,6 @@ body {
     width: 80%;
     height: fit-content;
     margin-left: -20%;
-    
 }
 
 #right {
@@ -94,23 +113,14 @@ body {
 }
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
-    background-color: black;           /* Footer height */
+    clear: both;
+    position: relative;
+    height: 20px;       /* Footer height */
 }
 
 .dark-mode {
-    background:
-linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-background-color: #131313;
-background-size: 20px 20px;
+    background-color: #000113;
+    background-size: 20px 20px;
     color: white;
 }
 
@@ -124,6 +134,10 @@ background-size: 20px 20px;
     margin-top: -7%;
 }
 
+.buttons {
+    width: 140px;
+}
+
 
 #dark-mode {
     background-size: 0px;
@@ -135,11 +149,10 @@ background-size: 20px 20px;
 .description {
     margin: auto;
     padding-bottom: 50px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 5px 10px;
-    border-radius: 20px;
-    width: 60%;
-    
+    width: 70%;
+    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    box-shadow: -1px 2px 39px -11px var(--secondary-color);
 }
 
 .any-problem {
@@ -149,10 +162,14 @@ background-size: 20px 20px;
 }
 
 .comment {
+    margin-top: 5%;
     margin-left: 25%;
     width: 60%;
     resize: both;
     overflow: auto;
+    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    box-shadow: -1px 2px 39px -11px var(--secondary-color);
 }
     
 textarea {
@@ -169,10 +186,99 @@ textarea {
     overflow: hidden; 
     resize: none; 
 } 
-@media only screen and (max-width: 415px) {
+
+
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+  
+  }
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #313131;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
+@media only screen and (max-width : 1200px) {
+  
+}
+
+@media only screen and (max-width : 992px ) {
+   
+    .description {
+        width: 80%;
+    }
+
+    .comment {
+        margin-left: 20%;
+    }
+
+    .any-problem {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .any-problem {
+        width: 85%;
+    }
+
+    .description {
+        width: 93%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    
     #middle {
         width: 100%;
-        font-size: 13px;
+        font-size: 15px;
         margin-left: 3%;
         margin-top: 5%;
     }
@@ -184,15 +290,20 @@ textarea {
     }
 
     #mentors {
-        text-align: center;
+        text-align: left;
+        padding-bottom: 5%;
+        margin-top: -50%;
+        margin-bottom: 100%;
     }
 
     #time {
         text-align: center;
+        padding-bottom: 5%;
     }
 
     .buttons {
-        margin-left: 18%;
+        width: 200px;
+        margin-left: 28%;
     }
 
     .buttons p {
@@ -218,8 +329,9 @@ textarea {
     .any-problem {
         width: 80%;
     }
-  }
-
-@media only screen and (max-width : 320px) {
-    
 }
+
+
+
+
+

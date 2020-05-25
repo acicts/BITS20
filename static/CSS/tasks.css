@@ -1,0 +1,48 @@
+
+.tasks {
+    float: left;
+    margin-left: 10%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 197, 197);
+    width: 60%;
+    height: 20%;
+    
+}
+
+.tasks p {
+    width: 50%;
+}
+
+#catocery {
+    margin-left: -80;
+}
+
+#catocery.btn.btn-success {
+    margin-top: -160%;
+}
+
+.buttons {
+    margin-top: -2%;
+    float: right;
+}
+
+#catocery.btn.btn-primary {
+    background-color: rgba(0, 0, 0, 0);
+    color: blanchedalmond;
+}
+
+.filter {
+    
+    float: right;
+    width: 20%;
+  border: 5px solid rgb(6, 0, 54);
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: -50%;
+  left: 73%;
+  position: fixed;
+}
+

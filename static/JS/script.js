@@ -1,8 +1,3 @@
-function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-}
-
 var titles = [];
 var titleInput = document.getElementById("autoresizing");
 var messageBox = document.getElementById("display");
@@ -26,4 +21,26 @@ messageBox.innerHTML = "";
 messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
 }
 
-$('textarea').autoResize();
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
