@@ -1,3 +1,26 @@
+body {
+    background-color: var(--bg-color);
+    color: blanchedalmond;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+
+
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #2c2c2c;
+    --font-color: #202020;
+    --bg-color: rgb(226, 226, 226);
+    --heading-color: #ff9811;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #ffffff;
+    --bg-color: #00001f;
+    --heading-color: #002daa;
+}
 
 .tasks {
     float: left;
@@ -5,10 +28,13 @@
     padding: 2%;
     border-radius: 10px;
     margin-bottom: 2%;
-    color: rgb(0, 0, 0);
-    background-color: rgb(197, 197, 197);
+    color: var(--font-color);
+    background-color: var(--bg-color);
     width: 60%;
     height: 20%;
+    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    box-shadow: -1px 2px 39px -11px var(--secondary-color);
     
 }
 
@@ -30,15 +56,17 @@
 }
 
 #catocery.btn.btn-primary {
-    background-color: rgba(0, 0, 0, 0);
-    color: blanchedalmond;
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
 .filter {
-    
+    color: var(--font-color);
     float: right;
     width: 20%;
-  border: 5px solid rgb(6, 0, 54);
+    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    box-shadow: -1px 2px 39px -11px var(--secondary-color);
   border-radius: 10px;
   padding: 50px;
   margin-top: -50%;
@@ -46,3 +74,59 @@
   position: fixed;
 }
 
+.theme-switch-wrapper {
+    color: var(--bg-color);
+    background-color: var(--font-color);
+    display: flex;
+    align-items: center;
+  
+  }
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: var(--font-color);
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--bg-color);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
