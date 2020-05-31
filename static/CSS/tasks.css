@@ -22,6 +22,10 @@ body {
     --heading-color: #002daa;
 }
 
+.row {
+  display: flex;
+}
+
 .tasks {
     float: left;
     margin-left: 10%;
@@ -142,9 +146,7 @@ body {
       width: 70%;
   }
 
-
-  
-  
+  }
   
   @media only screen and (max-width : 768px) {
       
@@ -174,8 +176,32 @@ body {
   }
   
   @media only screen and (max-width: 576px) {
-      
-     
+    .row {
+      width: 100%;
+      margin-top: 80%;
+    }
+    
+    #catocery.btn.btn-success {
+      margin-top: auto;
+  }
+  .tasks p {
+    width: 90%;
+  }
+
+  .tasks {
+    margin-left: 9%;
+    width: 90%;
+  }
+
+  #catocery {
+    margin-left: auto;
+}
+    
+  .filter {
+    margin-left: -14.5%;
+    width: 90%;
+  }
+
   }
   
   
