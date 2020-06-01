@@ -95,3 +95,15 @@ body {
 .team-description h6 {
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 576px) {
+  .description h6 {
+    font-size: 1rem;
+  }
+
+  .info {
+    padding: 2rem;
+    
+  }
+
+}
