@@ -1,97 +1,97 @@
-body {
-  background-color: rgb(2, 0, 36);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
-.header  {
-  background-image: url("https://wallpaperaccess.com/full/26174.png");
-    color: honeydew;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-    padding-top: 10%;
-    margin: auto;
-    text-align: center;
-    
-}
-
-.header h1 {
-    font-size: 100px;
-    padding-top: 10%;
-    margin: auto;
-    text-align: center;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-
-.demo a {
-  margin-top: 12%;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
-  transition: opacity .3s;
-}
-.demo a:hover {
-  opacity: .5;
+body {
+  background-color: rgb(0, 0, 0);
 }
 
-
-#section04 a {
-  padding-top: 60px;
-}
-#section04 a span {
-    text-align: center;
+.main {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/351/469/119/5bd00e379be84-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  color: honeydew;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  padding-top: 10%;
   margin: auto;
-  width: 23%;
-  height: 24px;
-  
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb04 2s infinite;
-  animation: sdb04 2s infinite;
-  box-sizing: border-box;
+  text-align: center;
+  text-shadow: 0 0 10px black;
 }
-@-webkit-keyframes sdb04 {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-  }
-  20% {
-    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
-  }
-  40% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-  }
+
+.main h1 {
+  font-size: 100px;
+  padding-top: 10%;
+  margin: auto;
+  text-align: center;
 }
-@keyframes sdb04 {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-  }
-  20% {
-    transform: rotate(-45deg) translate(-10px, 10px);
-  }
-  40% {
-    transform: rotate(-45deg) translate(0, 0);
-  }
+
+.icon-down a span {
+  color: white;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+.icon-down a span:hover {
+  background: #007bff;
+  border-radius: 50%;
+}
+
+.logo {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  position: fixed;
+  width: 150px;
+  left: 50px;
+  bottom: 50px;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo img {
+  margin: 0px 25px;
+  width: 100px;
 }
 
 .info {
-    color: honeydew;
-    width: 90%;
-    padding-bottom: 10%;
-    font-size: 20px;
-    padding-top: 10%;
-    margin: auto;
-    text-align: center;
-    background-color: rgba(0, 8, 29, 0);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: honeydew;
+  width: 100%;
+  padding: 10rem;
+  text-align: center;
+  background-color: rgba(0, 123, 255, 0.4);
 }
 
+.description h6 {
+  font-size: 2rem;
+}
 
+.team {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: honeydew;
+  width: 100%;
+  padding: 4rem 12rem;
+  text-align: center;
+  background-color: rgba(0, 123, 255, 0.4);
+}
+
+.team h2 {
+  margin: 40px;
+}
+
+.team-description h6 {
+  font-size: 1.5rem;
+}

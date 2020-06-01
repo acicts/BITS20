@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
 body {
     background-color: var(--bg-color);
     color: blanchedalmond;
+    overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
-
 
 :root {
     --primary-color: #302AE6;
@@ -22,12 +23,30 @@ body {
     --heading-color: #002daa;
 }
 
+.navbar{
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a{
+  color: var(--font-color);
+}
+
+
 .row {
   display: flex;
 }
 
+.task-list{
+  margin-top: 100px;
+}
+
 .tasks {
     float: left;
+    margin-top: 10px;
     margin-left: 10%;
     padding: 2%;
     border-radius: 10px;
@@ -36,10 +55,9 @@ body {
     background-color: var(--bg-color);
     width: 60%;
     height: 20%;
-    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
-    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
-    box-shadow: -1px 2px 39px -11px var(--secondary-color);
-    
+    -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+    -moz-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+    box-shadow: 0px 0px 5px 1px var(--secondary-color);
 }
 
 .tasks p {
@@ -56,6 +74,7 @@ body {
 
 .buttons {
     margin-top: -2%;
+    display: block;
     float: right;
 }
 
@@ -68,9 +87,9 @@ body {
     color: var(--font-color);
     float: right;
     width: 20%;
-    -webkit-box-shadow: -1px 2px 39px -11px var(--secondary-color);
-    -moz-box-shadow: -1px 2px 39px -11px var(--secondary-color);
-    box-shadow: -1px 2px 39px -11px var(--secondary-color);
+    -webkit-box-shadow: -1px 2px 5px  var(--secondary-color);
+    -moz-box-shadow:-1px 2px 5px  var(--secondary-color);
+    box-shadow: -1px 2px 5px var(--secondary-color);
   border-radius: 10px;
   padding: 50px;
   margin-top: 10%;
@@ -80,8 +99,7 @@ body {
 
 .theme-switch-wrapper {
     padding: 1%;
-    color: var(--bg-color);
-    background-color: var(--font-color);
+    /* background-color: var(--font-color); */
     display: flex;
     align-items: center;
     overflow:hidden
@@ -92,6 +110,7 @@ body {
     height: 34px;
     position: relative;
     width: 60px;
+    margin: 10px;
   }
   
   .theme-switch input {
@@ -100,7 +119,7 @@ body {
   
   .slider {
     color: var(--font-color);
-    background-color: var(--bg-color);
+    background-color: rgba(0, 0, 0, 0.4);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -122,7 +141,7 @@ body {
   }
   
   input:checked + .slider {
-    background-color: var(--bg-color);
+    background-color: rgba(255, 255, 255, 0.4);
   }
   
   input:checked + .slider:before {
