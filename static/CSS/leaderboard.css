@@ -1,0 +1,33 @@
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: rgb(46, 46, 46);
+    color: rgb(216, 216, 216);
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px; 
+}
+
+.name {
+    margin-left: 5%;
+    width: 40%;
+}
+
+.class {
+    margin-top: -30px;
+    margin-right: 20%;
+    float: right;
+}
+
+.points {
+    margin-right: 5%;
+    float: right;
+    margin-top: -30px;
+}
