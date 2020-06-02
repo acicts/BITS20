@@ -149,9 +149,7 @@ nav ul {
   margin-left: -80;
 }
 
-#catocery.btn.btn-success {
-  margin-top: -160%;
-}
+
 
 .buttons {
   margin-top: -2%;
@@ -235,6 +233,10 @@ input:checked+.slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.a {
+  color: aliceblue;
 }
 
 @media only screen and (max-width : 1200px) {}
