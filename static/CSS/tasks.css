@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-  --primary-color: #302AE6;
+  --primary-color: rgb(32, 32, 32);
   --secondary-color: #2c2c2c;
   --font-color: #202020;
   --bg-color: rgb(226, 226, 226);
@@ -16,7 +16,7 @@ body {
 }
 
 [data-theme="dark"] {
-  --primary-color: #9A97F3;
+  --primary-color: rgb(226, 226, 226);
   --secondary-color: #818cab;
   --font-color: #ffffff;
   --bg-color: #00001f;
@@ -25,16 +25,21 @@ body {
 
 .logo {
   height: 100px;
+  background-color: rgb(32, 32, 32);
+}
+
+#dark-light {
+  color: var(--bg-color);
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  background: #444;
+  background: var(--primary-color);
 }
 
 nav ul li a {
-  color: #ddd;
+  color: var(--bg-color);
   text-decoration: none;
   padding: .8rem 1rem;
   display: block;
@@ -46,7 +51,7 @@ nav ul li {
 }
 
 nav div:first-child {
-  background: #222;
+  background: var(--primary-color);;
 }
 
 nav div:first-child h1 {
@@ -64,7 +69,7 @@ nav ul {
   nav {
     display: flex;
     justify-content: space-between;
-    background-color: #222;
+    background-color: var(--primary-color);
     align-items: center;
   }
 
@@ -209,7 +214,7 @@ nav ul {
 }
 
 .slider:before {
-  background-color: var(--font-color);
+  background-color: var(--bg-color);
   bottom: 4px;
   content: "";
   height: 26px;

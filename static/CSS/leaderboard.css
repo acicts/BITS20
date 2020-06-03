@@ -31,3 +31,15 @@
     float: right;
     margin-top: -30px;
 }
+
+@media only screen and (max-width: 576px) {
+    .leaderboard {
+        padding: 0%;
+        width: 95%;
+    }
+
+    .flex-item {
+        width: 95%;
+    }
+  
+  }
