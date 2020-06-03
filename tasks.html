@@ -1,123 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: BITS 2020 HOME
+css: static/CSS/tasks.css
+js: static/JS/tasks.js
+change_theme: true
+---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tasks</title>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
-  <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="static/CSS/tasks.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+<div class="filter">
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">All Tasks</label>
 
-<body>
-  <nav>
-    <div>
-      <h1>
-        <a href="index.html"><img src="./static/images/BITS-logo-w.gif" alt="BITS" class="logo" /></a>
-      </h1>
+  <p></p>
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Code</label>
+  <p></p>
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Design</label>
+  <p></p>
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Explore</label>
+</div>
+
+<div class="row task-list">
+
+  {% for task in site.data.tasks %}
+  <div class="tasks">
+    <h4>{{task.caption}}</h4>
+    <p>{{task.description}}</p>
+    <div class="buttons">
+      <a class="btn btn-success" href="{{task.pdfURL}}" id="catocery">Task
+        Information</a>
+      <button type="button" class="btn btn-primary" id="catocery">{{task.category}}</button>
     </div>
-    <ul>
-      <li><a href="tasks.html">Tasks</a></li>
-      <li><a href="#">Online Test</a></li>
-      <li><a href="#">Leaderboard</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-    <div class="theme-switch-wrapper">
-      <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
-      </label>
-      <span id="dark-light">Switch themes</sapn>
-    </div>
-  </nav>
-
-
-  <div class="filter">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">All Tasks</label>
-
-    <p></p>
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Code</label>
-    <p></p>
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Design</label>
-    <p></p>
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Explore</label>
   </div>
+  {% endfor %}
 
-  <div class="row task-list">
-
-    <div class="tasks">
-      <h4>Write a blog</h4>
-      <p> Create a blog about history of Robotics to display on ACICTS BLOGS. </p>
-      <div class="buttons">
-        <a class="btn btn-success" href="task-claimed.html" id="catocery">Task
-          Information</a>
-        <button type="button" class="btn btn-primary" id="catocery">Explore</button>
-      </div>
-    </div>
-
-    <div class="tasks">
-      <h4>Write a blog</h4>
-      <p> Create a blog about history of Robotics to display on ACICTS BLOGS. </p>
-      <div class="buttons">
-          <a class="btn btn-success" href="task-claimed.html" id="catocery">Task
-          Information</a>
-        <button type="button" class="btn btn-primary" id="catocery">Explore</button>
-      </div>
-    </div>
-
-    <div class="tasks">
-      <h4>Write a blog</h4>
-      <p> Create a blog about history of Robotics to display on ACICTS BLOGS. </p>
-      <div class="buttons">
-        <a class="btn btn-success" href="task-claimed.html" id="catocery">Task
-          Information</a>
-        <button type="button" class="btn btn-primary" id="catocery">Explore</button>
-      </div>
-    </div>
-
-    <div class="tasks">
-      <h4>Write a blog</h4>
-      <p> Create a blog about history of Robotics to display on ACICTS BLOGS. </p>
-      <div class="buttons">
-          <a class="btn btn-success" href="task-claimed.html" id="catocery">Task
-          Information</a>
-        <button type="button" class="btn btn-primary" id="catocery">Explore</button>
-      </div>
-    </div>
-
-    <div class="tasks">
-      <h4>Write a blog</h4>
-      <p> Create a blog about history of Robotics to display on ACICTS BLOGS. </p>
-      <div class="buttons">
-          <a class="btn btn-success" href="task-claimed.html" id="catocery">Task
-          Information</a>
-        <button type="button" class="btn btn-primary" id="catocery">Explore</button>
-      </div>
-    </div>
-
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous">
-  </script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
-  <script src="static/JS/tasks.js"></script>
-</body>
-
-</html>
+</div>
