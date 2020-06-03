@@ -32,7 +32,7 @@ function switchTheme(e) {
         localStorage.setItem('theme', 'dark');
         textChangeDark();
     }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
+    else { document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('theme', 'light');
           textChangeLight();
     }    
