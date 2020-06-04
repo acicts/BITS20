@@ -14,6 +14,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
+    commonjs (0.2.7)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.6)
@@ -24,11 +25,15 @@ GEM
       http_parser.rb (~> 0.6.0)
     ethon (0.12.0)
       ffi (>= 1.3.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
+    ffi (1.13.0)
     ffi (1.13.0-x64-mingw32)
+    font-awesome-less (4.7.0)
+      less (>= 2.4.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (206)
@@ -192,6 +197,8 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     kramdown (1.17.0)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
     liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -204,6 +211,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.1)
     multipart-post (2.1.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
@@ -239,9 +248,11 @@ GEM
     zeitwerk (2.3.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
+  font-awesome-less
   github-pages
   jekyll
 
