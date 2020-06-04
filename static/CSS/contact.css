@@ -19,8 +19,12 @@ body {
   --primary-color: rgb(226, 226, 226);
   --secondary-color: #818cab;
   --font-color: #ffffff;
-  --bg-color: #00001f;
-  --heading-color: #000516;
+  --bg-color: #00000f;
+  --heading-color: #000a2b9a;
+}
+
+p {
+  color: var(--font-color);
 }
 
 .logo {
@@ -119,6 +123,7 @@ nav ul {
 /* _________________________________________________________________________________________________________________________________________________________________ */
 
 .social {
+  width: 100%;
   padding: 0;
   margin-top: 10px;
   list-style: none;
@@ -135,31 +140,32 @@ nav ul {
 
 .phone {
   padding: 0;
-  margin-top: 80px;
+  margin: 80px;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  
 }
 
 .chat {
   background: var(--heading-color);
   padding: 1%;
   width: 300px;
-  height: 160px;
-  margin-top: 10px;
-  border-color: var(--font-color) 2px;
-
-  color: rgb(0, 0, 0);
+  height: 170px;
+  margin: 10px;
+  border-radius: 10px;
+  color: var(--font-color);
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  -moz-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  box-shadow: 0px 0px 5px 1px var(--secondary-color);
 }
 
 .call {
@@ -167,13 +173,15 @@ nav ul {
   padding: 1%;
   width: 400px;
   height: 200px;
-  margin-top: 10px;
-  border-color: var(--font-color) 2px;
-
+  margin: 10px;
+  border-radius: 10px;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  -moz-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  box-shadow: 0px 0px 5px 1px var(--secondary-color);
 }
 
 .theme-switch-wrapper {
@@ -243,6 +251,7 @@ h5 {
 h6 {
   font-weight: lighter;
   font-size: 13px;
+  color: var(--font-color);
 }
 
 /* Demo */
@@ -254,6 +263,7 @@ h6 {
 .social-icons {
   display: -webkit-box;
   display: flex;
+  margin-left: 30px;
 }
 
 .social-icon {
@@ -264,7 +274,7 @@ h6 {
   -webkit-box-pack: center;
           justify-content: center;
   position: relative;
-  width: 40px;
+  width: 45px;
   height: 40px;
   margin: 0 0.5rem;
   border-radius: 50%;
@@ -298,28 +308,7 @@ h6 {
 .social-icon--discord .tooltip:after {
   border-top-color: #006599;
 }
-.social-icon--telegram {
-  background: #2b97f1;
-  color: #fff;
-}
-.social-icon--telegram .tooltip {
-  background: #2b97f1;
-  color: currentColor;
-}
-.social-icon--telegram .tooltip:after {
-  border-top-color: #2b97f1;
-}
-.social-icon--whatsapp {
-  background: rgb(255, 255, 255);
-  color: rgb(50, 160, 78);
-}
-.social-icon--whatsapp .tooltip {
-  background: rgb(255, 255, 255);
-  color: currentColor;
-}
-.social-icon--whatsapp .tooltip:after {
-  border-top-color: rgb(255, 255, 255);
-}
+
 .social-icon--call {
   background: #00be49;
   color: #fff;
@@ -342,15 +331,15 @@ h6 {
 .social-icon--instagram .tooltip:after {
   border-top-color: #527fa6;
 }
-.social-icon--slack {
+.social-icon--email {
   background: #ef5a92;
   color: #fff;
 }
-.social-icon--slack .tooltip {
+.social-icon--email .tooltip {
   background: #ef5a92;
   color: currentColor;
 }
-.social-icon--slack .tooltip:after {
+.social-icon--email .tooltip:after {
   border-top-color: #ef5a92;
 }
 .social-icon--github {

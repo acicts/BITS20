@@ -1,64 +1,74 @@
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
+- caption: Getting familiar with VCS
+  description: Write a blog post about Version Control System (VCS)
+  pdfURL: 
   category: Explore
 
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
+- caption: Getting started guide for Bits
+  description: Create a Getting started guide for new Bits participants
+  pdfURL: 
   category: Explore
 
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
+- caption: presentation about Google Code-In
+  description: Create a presentation about Google Code-In contest
+  pdfURL: 
   category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
+
+- caption: Find a bug 
+  description: Find bugs in Bits 2020 website
+  pdfURL: 
   category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
+
+- caption: Make a project proposal 
+  description: Make a project proposal for an app idea
+  pdfURL: 
   category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
-  
-- caption: Write a blog
-  description: Create a blog about history of Robotics to display on ACICTS BLOGS.
-  pdfURL: 001D1
-  category: Explore
+
+- caption: Make a portfolio website
+  description: Make a portfolio website using HTML and CSS And host it on github pages
+  pdfURL: 
+  category: Code  
+
+- caption: Make a calculator
+  description: Make a basic calculator using scratch
+  pdfURL: 
+  category: Code 
+
+- caption: Introduction to github
+  description: Introduce yourself to github
+  pdfURL: 
+  category: Code 
+
+- caption: Create an AI
+  description: Create and Artificial Intelligence that answers pre-coded questions in CLI
+  pdfURL: 
+  category: Code 
+
+- caption: Machine learning for identify a object
+  description:  Train a ML AI to identify a mobile phone
+  pdfURL: 
+  category: Code 
+
+- caption: Design a logo
+  description:  Design a logo for Bits 2021
+  pdfURL: 
+  category: Design
+
+- caption: Design swag items for ACICTS
+  description:  Design a T-shirt, Cap, Pen and a sticker design for Ananda College ICT society
+  pdfURL: 
+  category: Design
+
+- caption: Create a animated video
+  description:  Create a short animated video about cyber crimes
+  pdfURL: 
+  category: Design
+
+- caption: Design a flyer for PULZ
+  description:  Design a promotion flyer for PULZ 2020
+  pdfURL: 
+  category: Design
+
+- caption: Make a frame-by-frame animated video clip
+  description:  Make a frame by frame stickman character video clip 
+  pdfURL: 
+  category: Design

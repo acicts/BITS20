@@ -1,7 +1,31 @@
 @import "compass/css3";
 
+body {
+  background-color: var(--bg-color);
+}
+
+:root {
+  --primary-color: rgb(32, 32, 32);
+  --secondary-color: #2c2c2c;
+  --font-color: #202020;
+  --bg-color: rgb(226, 226, 226);
+  --heading-color: #c5c5c5;
+}
+
+[data-theme="dark"] {
+  --primary-color: rgb(226, 226, 226);
+  --secondary-color: #2c2c2c;
+  --font-color: #ffffff;
+  --bg-color: #00000f;
+  --heading-color: #000a2b9a;
+}
+
 .logo {
   height: 100px;
+}
+
+#dark-light {
+  color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -35,6 +59,65 @@ nav div:first-child h1 {
 nav div:first-child h1,
 nav ul {
   margin: 0;
+}
+
+.theme-switch-wrapper {
+  padding: 1%;
+  /* background-color: var(--font-color); */
+  display: flex;
+  align-items: center;
+  overflow: hidden
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+  margin: 10px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  color: var(--font-color);
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: var(--bg-color);
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked+.slider {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
 
 @media only screen and (min-width:30em) {
@@ -96,7 +179,7 @@ nav ul {
 .bits {
   width: 100%;
   height: 30%;
-  background-color: rgb(26, 65, 100);
+  background-color: var(--secondary-color);
   padding: 2%;
 }
 
@@ -135,15 +218,16 @@ nav ul {
   width: 300px;
   height: 330px;
   margin-top: 30px;
-
+  margin-left: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px var(--font-color);
+  -moz-box-shadow: 0px 0px 5px 1px var(--font-color);
+  box-shadow: 0px 0px 5px 1px var(--font-color);
 
 }
 
 
-
-.overlay ul {}
-
-.container {
+.container1 {
   padding: 0%;
   position: relative;
   width: 100%;
@@ -172,7 +256,7 @@ nav ul {
   text-align: center;
 }
 
-.container:hover .overlay {
+.container1:hover .overlay {
   opacity: 40;
 }
 

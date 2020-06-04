@@ -1,0 +1,23 @@
+---
+layout: default
+title: BITS 2020 HOME
+css: static/CSS/onlinetest.css
+js: static/JS/onlinetest.js
+change_theme: true
+---
+
+<div class="row task-list">
+
+    {% for test in site.data.onlinetest %}
+  <div class="tasks">
+    <h4>{{test.caption}}<span><h5 class="age">{{test.age}}</h5></span></h4> 
+    <p> <span style="font-weight: bold;">Date :</span> {{test.date}}</p>
+    <p> <span style="font-weight: bold;">Time :</span> {{test.time}}</p>
+    <div class="buttons">
+      <a class="btn btn-success" href="{{test.URL}}" id="catocery">VISIT TEST</a>
+      <button type="button" class="btn btn-primary" id="catocery">Online Test</button>
+    </div>
+  </div>
+  {% endfor %}
+  
+  </div>

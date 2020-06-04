@@ -12,24 +12,23 @@ body {
   --secondary-color: #2c2c2c;
   --font-color: #202020;
   --bg-color: rgb(226, 226, 226);
-  --heading-color: #ff9811;
+  --heading-color: #dddddd;
 }
 
 [data-theme="dark"] {
   --primary-color: rgb(226, 226, 226);
   --secondary-color: #818cab;
   --font-color: #ffffff;
-  --bg-color: #00001f;
-  --heading-color: #002daa;
+  --bg-color: #00000f;
+  --heading-color: #000a2b9a;
 }
 
 .logo {
   height: 100px;
-  background-color: rgb(32, 32, 32);
 }
 
 #dark-light {
-  color: var(--bg-color);
+  color: white;
 }
 
 nav ul {
@@ -138,7 +137,7 @@ nav ul {
   border-radius: 10px;
   margin-bottom: 2%;
   color: var(--font-color);
-  background-color: var(--bg-color);
+  background-color: var(--heading-color);
   width: 60%;
   height: 20%;
   -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
