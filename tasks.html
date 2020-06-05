@@ -1,12 +1,12 @@
 ---
 layout: default
-title: BITS 2020 HOME
+title: TASKS
 css: static/CSS/tasks.css
 js: static/JS/tasks.js
 change_theme: true
 ---
 
-<div class="filter">
+<div class="filterDiv">
   <input type="checkbox" class="form-check-input" id="exampleCheck1">
   <label class="form-check-label" for="exampleCheck1">All Tasks</label>
 
@@ -22,17 +22,21 @@ change_theme: true
 </div>
 
 <div class="row task-list" id="row1">
-
   {% for task in site.data.tasks %}
   <div class="tasks">
+    
     <h4>{{task.caption}}</h4>
     <p>{{task.description}}</p>
     <div class="buttons">
-      <a class="btn btn-success" href="{{task.pdfURL}}" id="catocery">Task
+      <a class="btn btn-info" href="{{task.pdfURL}}" id="catocery">Task
         Information</a>
+        <a class="btn btn-success" href="{{task.submitURL}}" id="catocery">Submit Task</a>
       <button type="button" class="btn btn-primary" id="catocery">{{task.category}}</button>
     </div>
-  </div>
+  
+</div>
   {% endfor %}
 
 </div>
+
+

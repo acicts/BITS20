@@ -83,6 +83,7 @@ body {
 .image {
   display: block;
   width: 300px;
+  height: 300px;
   transition: 1s ease;
 }
 
@@ -94,7 +95,7 @@ body {
   /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: 2s ease;
+  transition: 1s ease;
   opacity: 0;
   color: white;
 }
