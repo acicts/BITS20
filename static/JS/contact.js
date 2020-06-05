@@ -14,8 +14,8 @@ if (currentTheme) {
     }
 }
 
-var dark = "Disable Dark mode"
-var light = "Enable dark mode"
+var dark = "Enable Dark mode"
+var light = "Disble dark mode"
 
 
 function textChangeDark() {

@@ -1,45 +1,64 @@
-.leaderboard {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    justify-content: space-around;
-}
-
-.flex-item {
-    background-color: rgb(46, 46, 46);
-    color: rgb(216, 216, 216);
-    margin: auto;
-    margin-bottom: 5px;
-    font-size: 20px;
-    width: 80%;
-    padding: 10px; 
-}
-
-.name {
-    margin-left: 5%;
-    width: 40%;
-}
-
-.class {
-    margin-top: -30px;
-    margin-right: 20%;
-    float: right;
-}
-
-.points {
-    margin-right: 5%;
-    float: right;
-    margin-top: -30px;
-}
-
-@media only screen and (max-width: 576px) {
-    .leaderboard {
-        padding: 0%;
-        width: 95%;
-    }
-
-    .flex-item {
-        width: 95%;
-    }
+:root { 
+    --primary-color: rgb(32, 32, 32);
+    --secondary-color: #2c2c2c;
+    --font-color: #202020;
+    --bg-color: rgb(226, 226, 226);
+    --heading-color: #c5c5c5;
+  }
   
+  [data-theme="dark"] {
+    --primary-color: rgb(226, 226, 226);
+    --secondary-color: #818cab;
+    --font-color: #ffffff;
+    --bg-color: #00000f;
+    --heading-color: #000a2b9a;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    height: 100%;
+  }
+
+  
+  #row1 {
+    display: flex;
+  }
+  
+  .task-list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .tasks {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--font-color);
+    background-color: var(--heading-color);
+    width: 85%;
+    height: 35px;
+    -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+    -moz-box-shadow: 0px 0px 5px 1px var(--secondary-color);
+    box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  }
+  
+.tasks h5 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+  .a {
+    color: aliceblue;
+  }
+
+  .age {
+    float: right;
+  }
+
+  .marks {
+    float: right;
+    margin-left: 150px;
   }

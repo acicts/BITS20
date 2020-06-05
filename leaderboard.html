@@ -6,83 +6,12 @@ js: static/JS/leaderboard.js
 change_theme: true
 ---
   
-<div class="leaderboard">
-    <div class="flex-item">
-        <div class="name">
-            Random Student
-         </div>
+<div class="row task-list" id="row1">
 
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
+    {% for person in site.data.leaderboard %}
+    <div class="tasks">
+        <h5>{{person.name}}<span><h5 class="age">{{person.class}}<span><h5 class="marks">{{person.marks}}</h5></span></h5></span></h5> 
     </div>
-    <div class="flex-item">
-         <div class="name">
-            Random Student
-         </div>
-
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
-    </div>
-    <div class="flex-item">
-        <div class="name">
-            Random Student
-         </div>
-
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
-    </div>
-    <div class="flex-item">
-        <div class="name">
-            Random Student
-         </div>
-
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
-    </div>
-    <div class="flex-item">
-        <div class="name">
-            Random Student
-         </div>
-
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
-    </div>
-    <div class="flex-item">
-        <div class="name">
-            Random Student
-         </div>
-
-         <div class="class">
-               10-6
-         </div>
-
-         <div class="points">
-             300
-         </div>
-    </div>
-</div>
+    {% endfor %}
+  
+  </div>
