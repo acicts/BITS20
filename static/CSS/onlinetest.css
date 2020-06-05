@@ -73,7 +73,6 @@ body {
     width: 120px;
     height: 25px;
     text-align: center;
-    
     color: white;
     background-color: rgb(0, 2, 95);
 }
@@ -84,7 +83,7 @@ body {
 
 @media only screen and (max-width: 450px) {
     .tasks {
-        width: 300px;
+        width: 80%;
     }
   }
   

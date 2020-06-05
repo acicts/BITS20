@@ -115,9 +115,11 @@ h6 {
 /* Social Icon Mixin */
 /* Social Icons */
 .social-icons {
+  width: 240px;
   display: -webkit-box;
   display: flex;
-  margin-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-icon {

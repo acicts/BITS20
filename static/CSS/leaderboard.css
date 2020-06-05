@@ -4,14 +4,18 @@
     --font-color: #202020;
     --bg-color: rgb(226, 226, 226);
     --heading-color: #c5c5c5;
+    --th-color: #474646;
+    --td-color: #000136;
   }
   
   [data-theme="dark"] {
-    --primary-color: rgb(226, 226, 226);
+    --primary-color: rgb(255, 255, 255);
     --secondary-color: #818cab;
     --font-color: #ffffff;
     --bg-color: #00000f;
     --heading-color: #000a2b9a;
+    --th-color: #c1c0f1;
+    --td-color: #acacac;
   }
 
   body {
@@ -20,45 +24,30 @@
     height: 100%;
   }
 
-  
-  #row1 {
-    display: flex;
+  table {
+    margin: auto;
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    
+    margin-bottom: 30px;
+    
   }
   
-  .task-list {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .tasks {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    border-radius: 5px;
+  th {
+    background-color: var(--th-color);
     color: var(--font-color);
-    background-color: var(--heading-color);
-    width: 85%;
-    height: 35px;
-    -webkit-box-shadow: 0px 0px 5px 1px var(--secondary-color);
-    -moz-box-shadow: 0px 0px 5px 1px var(--secondary-color);
-    box-shadow: 0px 0px 5px 1px var(--secondary-color);
-  }
-  
-.tasks h5 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-  
-  .a {
-    color: aliceblue;
+    text-align: left;
+    padding: 8px;
   }
 
-  .age {
-    float: right;
+  td {
+    text-align: left;
+    padding: 8px;
+    background-color: ;
   }
-
-  .marks {
-    float: right;
-    margin-left: 150px;
+  
+  tr:nth-child(even) {
+    background-color: var(--td-color);
   }

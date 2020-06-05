@@ -59,6 +59,8 @@ body {
 }
 
 .flex-item {
+  background-color: rgb(46, 46, 46);
+  color: white;
   width: 300px;
   height: 330px;
   margin-top: 30px;
@@ -81,6 +83,7 @@ body {
 .image {
   display: block;
   width: 300px;
+  transition: 1s ease;
 }
 
 .overlay {
@@ -91,17 +94,27 @@ body {
   /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: 1s ease;
+  transition: 2s ease;
   opacity: 0;
   color: white;
 }
 
 .overlay p {
+  font-size: 20px;
+  font-weight: bolder;
   text-align: center;
 }
 
 .container1:hover .overlay {
-  opacity: 40;
+  opacity: 1;
+}
+
+.container1:hover .image {
+  filter: blur(10px);
+}
+
+.pros {
+  list-style-type: none;
 }
 
 
