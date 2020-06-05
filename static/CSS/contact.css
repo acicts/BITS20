@@ -170,7 +170,7 @@ h6 {
   color: #fff;
 }
 .social-icon--call .tooltip {
-  background: #00b652;
+  background: #00be49;
   color: currentColor;
 }
 .social-icon--call .tooltip:after {
@@ -212,6 +212,18 @@ h6 {
 .social-icon i {
   position: relative;
   top: 1px;
+}
+
+.social-icon--call .tooltip {
+  margin-top: -20px;
+  width: 160px;
+  height: 30px;
+  background: rgb(0, 190, 73);
+  color: currentColor;
+}
+
+.social-icon--call .tooltip .num{
+  margin-top: -8px;
 }
 
 /* Tooltips */
