@@ -1,0 +1,161 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<style>
+    :root {
+  --primary-color: rgb(226, 226, 226);
+  --secondary-color: #818cab;
+  --font-color: #ffffff;
+  --bg-color: #00000f;
+  --heading-color: #000a2b9a;
+}
+
+[data-theme="dark"] {
+  --primary-color: rgb(32, 32, 32);
+  --secondary-color: #2c2c2c;
+  --font-color: #202020;
+  --bg-color: rgb(226, 226, 226);
+  --heading-color: #dddddd;
+}
+
+.logo {
+  height: 100px;
+}
+
+#dark-light {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: rgb(52, 58, 64)!important;
+  text-align: center;
+}
+
+nav ul li a {
+  color: var(--bg-color);
+  text-decoration: none;
+  padding: .8rem 1rem;
+  display: block;
+  line-height: 1;
+}
+
+nav ul li {
+  
+  border-bottom: 1px dotted #ddd;
+}
+
+nav div:first-child {
+  background: var(--primary-color);;
+}
+
+nav div:first-child h1 {
+  line-height: 0;
+  padding: .8rem 0rem;
+  text-align: center;
+}
+
+nav div:first-child h1,
+nav ul {
+  margin: 0;
+}
+
+@media only screen and (min-width:30em) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    background: none;
+    flex-wrap: wrap;
+  }
+
+  nav div:first-child h1 {
+    padding: 0;
+    margin-left: 1rem;
+  }
+
+  nav div:first-child img {
+    height: 120px;
+  }
+
+  nav ul li {
+    border-bottom: none;
+    flex: 1 0 auto;
+    position: relative;
+  }
+
+
+  nav ul li a {
+    padding: 1.2rem 1rem
+  }
+
+  nav ul li a::before,
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background: cyan;
+    transition: .2s width ease-in-out;
+  }
+
+  nav ul li a::before {
+    left: 0;
+  }
+
+  nav ul li a:hover::after,
+  nav ul li a:hover::before {
+    width: 50%;
+  }
+}
+
+
+
+</style>
+
+    <a class="navbar-brand" href="./index.html"><img src="./static/images/BITS-logo-w.gif" alt="BITS"
+            class="logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">
+                    Tasks
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./onlinetest.html">Online Test</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./leaderboard.html">Leaderboard</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+        </ul>
+        {% if page.change_theme %}
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox"/>
+                    <div class="slider round"></div>
+                </label>
+                <span id="dark-light">Switch themes</sapn>
+            </div>
+        {% endif %}
+    </div>
+</nav>
