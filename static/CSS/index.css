@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  background-image: url("/BITS20/static/images/BITS%20Cover.jpg");
+  background-image: url("../images/BITS%20Cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lato', sans-serif;
