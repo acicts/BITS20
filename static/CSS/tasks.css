@@ -7,8 +7,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-
-
 #row1 {
   display: flex;
 }
@@ -92,19 +90,9 @@ body {
     width: 83%;
   }
 
-  .filterDiv {
-    overflow: hidden;
-    position: absolute;
-    margin-top: 1%;
-    left: 19%;
-    width: 60%;
-    height: 240px;
-    background-color: var(--bg-color);
-  }
-
   #row1 {
     width: 100%;
-    margin-top: 45%;
+    margin-top: 10%;
   }
 
 }
@@ -112,7 +100,7 @@ body {
 @media only screen and (max-width: 576px) {
   #row1 {
     width: 100%;
-    margin-top: 80%;
+    margin-top: 20%;
   }
 
   #catocery.btn.btn-success {
@@ -130,11 +118,6 @@ body {
 
   #catocery {
     margin-left: auto;
-  }
-
-  .filterDiv {
-    margin-left: -14.5%;
-    width: 90%;
   }
 
 }

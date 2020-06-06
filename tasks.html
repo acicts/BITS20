@@ -6,24 +6,10 @@ js: static/JS/tasks.js
 change_theme: true
 ---
 
-<div class="filterDiv">
-  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-  <label class="form-check-label" for="exampleCheck1">All Tasks</label>
-
-  <p></p>
-  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-  <label class="form-check-label" for="exampleCheck1">Code</label>
-  <p></p>
-  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-  <label class="form-check-label" for="exampleCheck1">Design</label>
-  <p></p>
-  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-  <label class="form-check-label" for="exampleCheck1">Explore</label>
-</div>
-
+<!--
 <div class="row task-list" id="row1">
   {% for task in site.data.tasks %}
-  <div class="tasks">
+  <div class="tasks task-cat {{task.category}}">
     
     <h4>{{task.caption}}</h4>
     <p>{{task.description}}</p>
@@ -38,5 +24,4 @@ change_theme: true
   {% endfor %}
 
 </div>
-
-
+-->
