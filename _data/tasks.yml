@@ -1,35 +1,90 @@
-- caption: Make a portfolio website 
+- caption: Getting familiar with VCS
+  description: Write a blog post about Version Control System (VCS)
+  pdfURL: 
+  submitURL: 
+  category: Explore
+
+- caption: Getting started guide for Bits
+  description: Create a Getting started guide for new Bits participants
+  pdfURL: 
+  submitURL: 
+  category: Explore
+
+- caption: presentation about Google Code-In
+  description: Create a presentation about Google Code-In contest
+  pdfURL: 
+  submitURL: 
+  category: Explore
+
+- caption: Find a bug 
+  description: Find bugs in Bits 2020 website
+  pdfURL: 
+  submitURL: 
+  category: Explore
+
+- caption: Make a project proposal 
+  description: Make a project proposal for an app idea
+  pdfURL: 
+  submitURL: 
+  category: Explore
+
+- caption: Make a portfolio website
   description: Make a portfolio website using HTML and CSS And host it on github pages
-  pdfURL: https://drive.google.com/file/d/12eI-IGzewqrhmPN54SAtiXPk_Ttxt2Pb/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdi27DNQsFGgo-CmHTo1PtavDLOJxZ6Pk6tB-FIVW1mnGWhAw/viewform?usp=sf_link
-  category: Code
+  pdfURL: 
+  submitURL: 
+  category: Code  
 
 - caption: Make a calculator
-  description: Make a portfolio website using HTML and CSS And host it on github pages
-  pdfURL: https://drive.google.com/file/d/1WmLow2BQuvZYlM-kmy6DWJtrQ-rdwOgI/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfzdy5aUI-wzFHQZSY4NPoaYbWcLckzNTdNUMLV5SHTjVRHcQ/viewform?usp=sf_link
-  category: Code
+  description: Make a basic calculator using scratch
+  pdfURL: 
+  submitURL: 
+  category: Code 
 
-- caption: Introduction to GitHub
-  description: Introduce yourself to GitHub 
-  pdfURL: https://drive.google.com/file/d/1kfD1RSROh-bTDDQ_AF4SCegbYmyQHbp-/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScBcNtzliJrO8CX2CJUJKc5Efek9HKbjZzf1skEyyLgXILwPA/viewform?usp=sf_link
-  category: Code
+- caption: Introduction to github
+  description: Introduce yourself to github
+  pdfURL: 
+  submitURL: 
+  category: Code 
 
 - caption: Create an AI
   description: Create and Artificial Intelligence that answers pre-coded questions in CLI
-  pdfURL: https://drive.google.com/file/d/1E5YmuT2fSs1GvtOWDBquihmNisbTIqv0/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeP3wZze9Uif0vvq4KXFJeM90PQmzNQGE6OnKFFkvdTyi6bQw/viewform?usp=sf_link
-  category: Code
+  pdfURL: 
+  submitURL: 
+  category: Code 
 
-- caption: Arduino programming
-  description: Identify a common problem in our society and create a solution for it using Arduino 
-  pdfURL: https://drive.google.com/file/d/1f163k0yt_MqTfj_yyBrP8r16KsOzimqM/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScGuFDf6RP1XTJMrWM-PmAjQqqt5omlyVaImsrsEeLUnMp3AQ/viewform?usp=sf_link
-  category: Code
+- caption: Machine learning for identify a object
+  description:  Train a ML AI to identify a mobile phone
+  pdfURL: 
+  submitURL: 
+  category: Code 
 
-- caption: Build a GitHub repository
-  description:  Build a repository of your choice that requires installation
-  pdfURL: https://drive.google.com/file/d/1WyfOdzMvOJ-28TVSqt5xkqB7QUq_ibKw/view?usp=sharing
-  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScVWEsB85-In5tJ5kRPvbgz2ReTV4F_LpBlhh4SMwNJUg0EGg/viewform?usp=sf_link
-  category: Code
+- caption: Design a logo
+  description:  Design a logo for Bits 2021
+  pdfURL: 
+  submitURL: 
+  category: Design
+
+- caption: Design swag items for ACICTS
+  description:  Design a T-shirt, Cap, Pen and a sticker design for Ananda College ICT society
+  pdfURL: 
+  submitURL: 
+  category: Design
+
+- caption: Create a animated video
+  description:  Create a short animated video about cyber crimes
+  pdfURL: 
+  submitURL: 
+  category: Design
+
+- caption: Design a flyer for PULZ
+  description:  Design a promotion flyer for PULZ 2020
+  pdfURL: 
+  submitURL: 
+  category: Design
+
+- caption: Make a frame-by-frame animated video clip
+  description:  Make a frame by frame stickman character video clip 
+  pdfURL: 
+  submitURL: 
+  category: Design
+
