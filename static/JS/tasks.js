@@ -1,3 +1,7 @@
+function alertmeeting(){
+    alert('The meeting link will be released on 15th of June at 00.00am in the morning!');
+}
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
 
