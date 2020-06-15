@@ -9,21 +9,7 @@ change_theme: true
 
 <div class="row task-list" id="row1">
 
-  <div class="tasks important" style="background-color: rgb(0, 5, 75); color: white;">
-    <h4> <b>The first Online Test is live now !</b> <button type="button" class="btn btn-primary" id="id">Online Test</button></h4>
-    <p style="width: 80%;">
-      There are 4 online tests for BITS participants. You can participate in these tests and score a high number of points.
-      It will help you on your way to The Winner Of BITS 2020. The first online test in now open. Take the test and claim your points !. 
-      Every online test will be available only for 12 hours and be sure to participate before it expires.
-    </p>
-    <div class="buttons">
-
-      <a class="btn btn-info" href="./onlinetest.html" id="catocery">Visit Tests</a>
-    </div>
-  
-</div>
-
-  <div class="tasks important">
+  <!-- <div class="tasks important"> 
     <h4><b>IMPORTANT</b></h4>
     <h4>HTML, CSS and JavaScript Coding Webinar - 01<button type="button" class="btn btn-primary" id="id">Task ID: CD01</button></h4>
     <p>A 2 hour coding session on the 15th of June [Monday]
@@ -35,11 +21,12 @@ change_theme: true
 
       <a class="btn btn-info" href="https://drive.google.com/file/d/1i439a9PV5CInM7T05lYQK94rZZwdl39A/view?usp=sharing" id="catocery">More
         Information</a>
-        <a class="btn btn-success" href="https://us02web.zoom.us/j/84638813801">Go to Meeting</a>
+        <a class="btn btn-success" onclick="alertmeeting()">Go to Meeting</a>
       <button type="button" class="btn btn-primary" id="catocery">Code & Design</button>
     </div>
   
-</div>
+  
+</div>-->
 
   {% for task in site.data.tasks %}
   <div class="tasks task-cat {{task.category}}">
