@@ -45,9 +45,13 @@
   td {
     text-align: left;
     padding: 8px;
-    background-color: ;
   }
   
   tr:nth-child(even) {
     background-color: var(--td-color);
   }
+
+.button {
+  margin-top: 30px;
+  margin-left: 5%;
+}
