@@ -5,7 +5,64 @@ css: static/CSS/tasks.css
 js: static/JS/tasks.js
 change_theme: true
 ---
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("tasks");
+  if (c == "all") c = "";
+  
+  for (i = 0; i < x.length; i++) {
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
 
+
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+
+function RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+var btnContainer = document.getElementById("BtnContainer");
+var btns = btnContainer.getElementById("btnnd");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+</script>
+<div id="filterContainer" class="card">
+  <button id="btnnd active" onclick="filterSelection('all')" class="btn btn-success"> Show all</button>
+  <button id="btnnd" onclick="filterSelection('imp')" class="btn btn-danger"> Important</button>
+  <button id="btnnd" onclick="filterSelection('code')" class="btn btn-primary"> Code</button>
+  <button id="btnnd" onclick="filterSelection('explore')" class="btn btn-info"> Explore</button>
+  <button id="btnnd" onclick="filterSelection('Design')" class="btn btn-secondary">Design</button>
+
+</div>
 
 <div class="row task-list" id="row1">
 
@@ -35,24 +92,56 @@ change_theme: true
 
       <a class="btn btn-info" href="https://drive.google.com/file/d/1i439a9PV5CInM7T05lYQK94rZZwdl39A/view?usp=sharing" id="catocery">More
         Information</a>
-        <a class="btn btn-success" href="https://us02web.zoom.us/j/84638813801">Go to Meeting</a>
+        <a class="btn btn-success" onclick="alertmeeting()">Go to Meeting</a>
       <button type="button" class="btn btn-primary" id="catocery">Code & Design</button>
     </div>
   
 </div>
 
-  {% for task in site.data.tasks %}
-  <div class="tasks task-cat {{task.category}}">
+  {% for code in site.data.code %}
+  <div class="tasks task-cat {{code.category}} code">
     
-    <h4>{{task.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{task.id}} </button></h4>
-    <p>{{task.description}}</p>
+    <h4>{{code.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{code.id}} </button></h4>
+    <p>{{code.description}}</p>
     
     <div class="buttons">
 
-      <a class="btn btn-info" href="{{task.pdfURL}}" id="catocery">Task
+      <a class="btn btn-info" href="{{code.pdfURL}}" id="catocery">Task
         Information</a>
-        <a class="btn btn-success" href="{{task.submitURL}}" id="catocery">Submit Task</a>
-      <button type="button" class="btn btn-primary" id="catocery">{{task.category}} </button>
+        <a class="btn btn-success" href="{{code.submitURL}}" id="catocery">Submit Task</a>
+      <button type="button" class="btn btn-primary" id="catocery">{{code.category}} </button>
+    </div>
+  
+</div>
+  {% endfor %}
+  {% for design in site.data.design %}
+  <div class="tasks task-cat {{design.category}} design">
+    
+    <h4>{{design.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{design.id}} </button></h4>
+    <p>{{design.description}}</p>
+    
+    <div class="buttons">
+
+      <a class="btn btn-info" href="{{design.pdfURL}}" id="catocery">Task
+        Information</a>
+        <a class="btn btn-success" href="{{design.submitURL}}" id="catocery">Submit Task</a>
+      <button type="button" class="btn btn-primary" id="catocery">{{design.category}} </button>
+    </div>
+  
+</div>
+  {% endfor %}
+  {% for explore in site.data.explore %}
+  <div class="tasks task-cat {{explore.category}} explore">
+    
+    <h4>{{explore.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{explore.id}} </button></h4>
+    <p>{{explore.description}}</p>
+    
+    <div class="buttons">
+
+      <a class="btn btn-info" href="{{explore.pdfURL}}" id="catocery">Task
+        Information</a>
+        <a class="btn btn-success" href="{{explore.submitURL}}" id="catocery">Submit Task</a>
+      <button type="button" class="btn btn-primary" id="catocery">{{explore.category}} </button>
     </div>
   
 </div>
