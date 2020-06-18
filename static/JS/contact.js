@@ -3,19 +3,19 @@ const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
-  
+
     if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
     }
 
     if (currentTheme === 'light') {
         toggleSwitch.checked = false;
-        
+
     }
 }
 
 var dark = "Enable Dark mode"
-var light = "Disble dark mode"
+var light = "Disable dark mode"
 
 
 function textChangeDark() {
@@ -31,11 +31,11 @@ function switchTheme(e) {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
         textChangeDark();
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+        textChangeLight();
     }
-    else { document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-          textChangeLight();
-    }    
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
