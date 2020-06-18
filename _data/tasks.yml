@@ -1,46 +1,40 @@
 - caption: Write a Code to Automatically Grade a Student's Marks
-  description: In this task you have to make a program to automatically grade a student’s marks using any
-programming language you prefer.
+  description: In this task you have to make a program to automatically grade a student’s marks using any programming language you prefer.
   pdfURL: https://drive.google.com/file/d/1mZ1vQDzlVenKSlpOct92F9oQFrYuQ4Yt/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe6ydfETg-0yf1d8yGi6KXXyi_9MtYVAkhYoHpuA1R7BBHo9Q/viewform?usp=sf_link
   category: Code
   id: C12
 
 - caption: Use Turtle to Draw Random Patterns
-  description: Turtle graphics is a popular python module for introducing programming to students. Using
-this module, you have to make a program that draws random patterns.
+  description: Turtle graphics is a popular python module for introducing programming to students. Using this module, you have to make a program that draws random patterns.
   pdfURL: https://drive.google.com/file/d/1G76Sx3PjNZNMJzcPHu19qkJ4ko0KyXAj/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdpM3mC-muRKSJJJ0XIp1i8WHx_i9qvfRPPVeU6Kv9bouu1HA/viewform?usp=sf_link
   category: Code
   id: C11
 
 - caption: Program a Dice Using Scratch
-  description: In this task, you have to make a program that automatically outputs a random number
-between 1 to 6; with a sprite that is used as the dice.
+  description: In this task, you have to make a program that automatically outputs a random number between 1 to 6; with a sprite that is used as the dice.
   pdfURL: https://drive.google.com/file/d/1GEvp67meDiffxvVDLplRw7s0qzufxOiO/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfFVtLnQFDCu_PojsuWryRhLb7aols-PKkKqe0ivIUooe6rKQ/viewform?usp=sf_link
   category: Code
   id: C10
 
 - caption: Create a Simple Music Box with Arduino
-  description: If you have some knowledge in Arduino, this is an easy task for you. Use an Arduino board, a
-buzzer and other components to make circuit that plays a simple tune by a press of a button.
+  description: If you have some knowledge in Arduino, this is an easy task for you. Use an Arduino board, a buzzer and other components to make circuit that plays a simple tune by a press of a button.
   pdfURL: https://drive.google.com/file/d/1F0VdoVDWxxmScRbzpbxmdP92ml_4QaTb/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfnoRS_5Rq9L7dgIIv6We42JeRDS58UMeNUQcffSCSVVPOWjA/viewform?usp=sf_link
   category: Code
   id: C09
 
 - caption: Create a Game Using Pygame
-  description: Pygame is a cross-platform set of Python modules designed for writing video games. So,
-create a mini game like pong, snake, space invaders, etc.
+  description: Pygame is a cross-platform set of Python modules designed for writing video games. So, create a mini game like pong, snake, space invaders, etc.
   pdfURL: https://drive.google.com/file/d/10rvABBGpFflDJ-3fsItC4fcud2UM1Yxg/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSceEvJC8kcdfYCiwAWL6881j1nsIsHEE2oELYf-i5_iInw_mw/viewform?usp=sf_link
   category: Code
   id: C08
 
 - caption: Add a Code Snippet from CodePen to Your Portfolio Webpage
-  description: CodePen is an online community for testing and showcasing user-created HTML, CSS and
-JavaScript code snippets. Use one of those snippets to elevate your portfolio website.
+  description: CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. Use one of those snippets to elevate your portfolio website.
   pdfURL: https://drive.google.com/file/d/1yBzf6rjTFFTnUt4cI9WYmeblhAnXSHIR/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfXLWtbO08mF9mte8A-_mO7VvFwOuu2nFtENSHi7VjO9FO3Sw/viewform?usp=sf_link
   category: Code
@@ -116,26 +110,21 @@ your choice when you are designing the certificate. Have fun!
   id: D10
 
 - caption: Design an Imaginative Picture with Adobe Photoshop or GIMP
-  description: Visit the instagram page of adobe photoshop(https://www.instagram.com/photoshop/?hl=en)
-and take a look at some of the images to understand how the picture should be. When you’re
-submitting, send us all the original images that you used to create your work.
+  description: Visit the instagram page of adobe photoshop(https://www.instagram.com/photoshop/?hl=en) and take a look at some of the images to understand how the picture should be. When you’re submitting, send us all the original images that you used to create your work.
   pdfURL: https://drive.google.com/file/d/13-DJ7xIhiWKWvIvuJEWpubSwMok9bPPX/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdMQoKkFoLCW2dk0fU5UMkghJ8y65ZR1TalEPYSp6slOzXO3w/viewform?usp=sf_link
   category: Design
   id: D09
 
 - caption: Design a 3D Model of the Current BITS Logo
-  description: In the top left corner of this document, you can see the BITS logo. Understand the structure of
-the logo to create a 3D version of the BITS logo. You will get more points if you animate the
-logo.
+  description: In the top left corner of this document, you can see the BITS logo. Understand the structure of the logo to create a 3D version of the BITS logo. You will get more points if you animate the logo.
   pdfURL: https://drive.google.com/file/d/1PNMDcPXOkFSAOVYDOAz8zbelcev-ZwSN/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSffZiAZkBhMs7XxrH1WGc2ITzhZTC0y_m3EyhUC5dxNCsnW5Q/viewform?usp=sf_link
   category: Design
   id: D08
 
 - caption: Create a 3D Model of the Lotus Tower
-  description: The Lotus Tower is one of the most significant additions to the skyscape of Colombo. you
-have to create a 3D model of the Lotus Tower using any software of your choice.
+  description: The Lotus Tower is one of the most significant additions to the skyscape of Colombo. You have to create a 3D model of the Lotus Tower using any software of your choice.
   pdfURL: https://drive.google.com/file/d/1WJfj4rIiCd1w2OFWh35PWGcWQZXUqKuW/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeALJK7nVBImMgdx8ktliV0tVGCXEGYAODN-qDV4rvFIxBimw/viewform?usp=sf_link
   category: Design
@@ -184,51 +173,42 @@ have to create a 3D model of the Lotus Tower using any software of your choice.
   id: D01
 
 - caption: Write a Set of Instructions to Stay Safe from Malware
-  description: Malware is a major problem for the functionality of a device. So, write a set of instructions to
-stay safe from malware.
+  description: Malware is a major problem for the functionality of a device. So, write a set of instructions to stay safe from malware.
   pdfURL: https://drive.google.com/file/d/1mDd01jo76janfkEifcxQO9SHMAq5jlTg/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe0wkqDpvTtv6dPTvpUWU3heyp3jRGZ8gnnXH1plzcZupt-Fw/viewform?usp=sf_link
   category: Explore
   id: E12
 
 - caption: Write a Review about Your Favourite Operating System
-  description: If you have a general interest in information technology, you may have used at least more
-than 3 operating systems. Write a review about your favourite one. Include images, your
-likes/dislikes and why it's your favourite.
+  description: If you have a general interest in information technology, you may have used at least more than 3 operating systems. Write a review about your favourite one. Include images, your likes/dislikes and why it's your favourite.
   pdfURL: https://drive.google.com/file/d/1MHE7_ZW3lbIR119zDsZIWPr9NB_5QgLH/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfBmnD0lkHSnOdjvNd79CrTupokKNoV9xzaKK6f8a74BBz_2w/viewform?usp=sf_link
   category: Explore
   id: E11
 
 - caption: Write a Blog about Your Experience in BITS So Far
-  description: It has been a week since registrations for BITS have been opened and you probably had a
-busy week with competing in BITS. Write a blog about your experience in BITS so far to tell
-others about BITS.
+  description: It has been a week since registrations for BITS have been opened and you probably had a busy week with competing in BITS. Write a blog about your experience in BITS so far to tell others about BITS.
   pdfURL: https://drive.google.com/file/d/1xtMFTUlbSkRgDO56jNFQjUxoySq7p5vF/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSddCuQxCKyvEN2bCUO_RqUS3VIzmtBBvH01G5inoWe0Gy2QTw/viewform?usp=sf_link
   category: Explore
   id: E10
 
 - caption: Review the BITS Website
-  description: It has been a week since registrations for BITS have been opened; and you probably had a
-busy week with competing in BITS. Now you have to review the BITS website and tell us
-everything you liked and didn’t like. It’s okay to be critical when you’re doing this.
+  description: It has been a week since registrations for BITS have been opened; and you probably had a busy week with competing in BITS. Now you have to review the BITS website and tell us everything you liked and didn’t like. It’s okay to be critical when you’re doing this.
   pdfURL: https://drive.google.com/file/d/1wOhn9j3sAre7CWjaMUPI0rOmC5BiSaLO/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSffAH7ZaTsduT-HTkAFQQMm-Cgg604qiaq6hD3nSGsZ1mRGPg/viewform?usp=sf_link
   category: Explore
   id: E09
 
 - caption: Make Tasks for BITS 2021
-  description: BITS 2021 will also be held in next year. You have to create 3 tasks for the 3 categories and
-submit them. Be unique and reasonable.
+  description: BITS 2021 will also be held in next year. You have to create 3 tasks for the 3 categories and submit them. Be unique and reasonable.
   pdfURL: https://drive.google.com/file/d/1nG2Yd7WtVVLmjbVog_yqCLp8YjOhw4jA/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdJkzbvwwY_ftuxYHgvmDE_AneliQjMrVrRSbxZhcTWS443Pw/viewform?usp=sf_link
   category: Explore
   id: E08
 
 - caption: Create a Troubleshooting Flowchart
-  description: By using a flowchart, you can easily understand if anything is wrong with your PC. Make a
-flowchart on your own to understand the troubleshooting process of an error.
+  description: By using a flowchart, you can easily understand if anything is wrong with your PC. Make a flowchart on your own to understand the troubleshooting process of an error.
   pdfURL: https://drive.google.com/file/d/1S2Vnl4e4UlD3crXbdvMphCBG2dDog2Ga/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScxv9FkcU1Zaq92tKdlJPdOEuw3rPgbKW3nWdWUPVDYuMB7Ew/viewform?usp=sf_link
   category: Explore
