@@ -1,5 +1,6 @@
 - caption: Code a To-Do app
-  description: Learn the basic functionality of a To-Do app and make one yourself.
+  description: Learn the
+basic functionality of a To-Do app and make one yourself.
   pdfURL: https://drive.google.com/file/d/1ItsuPeD-fuHSu78tE-lk7KSWprI4V-TE/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScOH8fz1dRcZA4Dj2hOjaUOQ0YxS4PRondZo0FJuQsWk7OxAw/viewform?usp=sf_link
   category: Code
@@ -259,38 +260,38 @@
   category: Explore
   id: E18
 
-- caption: 
-  description: 
-  pdfURL: 
-  submitURL: 
+- caption: Write a blog about quantum computing
+  description: Write a blog about this subject with your own words.
+  pdfURL: https://drive.google.com/file/d/1J6yFU8EBxuvIzb_lbolHBxpdzxo_gMKQ/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSddTm4kdaZMj_24e_9XjELmU0hn687plmceTChwvvpTi7__rg/viewform?usp=sf_link
   category: Explore
   id: E17
 
-- caption: 
-  description: 
-  pdfURL: 
-  submitURL: 
+- caption: Follow ACICTS Instagram page
+  description: Follow ACICTS Instagram page
+  pdfURL: https://drive.google.com/file/d/1IQvd80ltAKVIy3OKYEoe5jw6ULoRarQX/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScutKlsTl2dZOknNWRRbEjH-CuFAGNPRX-3Jj07DG0ZOXF4DQ/viewform?usp=sf_link
   category: Explore
   id: E16
 
-- caption: 
-  description: 
-  pdfURL: 
-  submitURL: 
+- caption: Write an error report for a Blue-screen-of-death you experienced
+  description: Write an error report for a Blue-screen-of-death you experienced
+  pdfURL: https://drive.google.com/file/d/1ISvTY2cJD7ufphEyB3V1CYmOOlG8KMAF/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSea2-Y2wWdhHt88z09qU_VPY1XbencNcufecxRgbQupJgg26g/viewform?usp=sf_link
   category: Explore
   id: E15
 
-- caption: 
-  description: 
-  pdfURL: 
-  submitURL: 
+- caption: Make a guide for bitcoin mining
+  description: Use your own words to describe Bitcoin mining
+  pdfURL: https://drive.google.com/file/d/1IYDB958IlMf3Q1aE5T0F_L1ssbms18cW/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSd4Bx29ndGiZFv4cFIM7e0z5n6eScaaNdT4UbKWaaSMXOxJaw/viewform?usp=sf_link
   category: Explore
   id: E14
 
-- caption: 
-  description: 
-  pdfURL: 
-  submitURL: 
+- caption: Introduction to API
+  description: Learn what is an API (Application programming interface) and write and tutorial for absolute beginners
+  pdfURL: https://drive.google.com/file/d/1Iq4iQej9kDjWgkHSjL-apJ3SHYzUmJp2/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfD41qK155o9WYSlt3fjR2q5zMm5kMMxlUuHzv2jFi49Jrl_A/viewform?usp=sf_link
   category: Explore
   id: E13
 
