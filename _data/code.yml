@@ -1,0 +1,95 @@
+- caption: Write a Code to Automatically Grade a Student's Marks
+  description: In this task you have to make a program to automatically grade a student’s marks using any programming language you prefer.
+  pdfURL: https://drive.google.com/file/d/1mZ1vQDzlVenKSlpOct92F9oQFrYuQ4Yt/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe6ydfETg-0yf1d8yGi6KXXyi_9MtYVAkhYoHpuA1R7BBHo9Q/viewform?usp=sf_link
+  category: Code
+  id: C12
+  
+
+- caption: Use Turtle to Draw Random Patterns
+  description: Turtle graphics is a popular python module for introducing programming to students. Using this module, you have to make a program that draws random patterns.
+  pdfURL: https://drive.google.com/file/d/1G76Sx3PjNZNMJzcPHu19qkJ4ko0KyXAj/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdpM3mC-muRKSJJJ0XIp1i8WHx_i9qvfRPPVeU6Kv9bouu1HA/viewform?usp=sf_link
+  category: Code
+  id: C11
+  
+
+- caption: Program a Dice Using Scratch
+  description: In this task, you have to make a program that automatically outputs a random number between 1 to 6; with a sprite that is used as the dice.
+  pdfURL: https://drive.google.com/file/d/1GEvp67meDiffxvVDLplRw7s0qzufxOiO/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfFVtLnQFDCu_PojsuWryRhLb7aols-PKkKqe0ivIUooe6rKQ/viewform?usp=sf_link
+  category: Code
+  id: C10
+  
+
+- caption: Create a Simple Music Box with Arduino
+  description: If you have some knowledge in Arduino, this is an easy task for you. Use an Arduino board, a buzzer and other components to make circuit that plays a simple tune by a press of a button.
+  pdfURL: https://drive.google.com/file/d/1F0VdoVDWxxmScRbzpbxmdP92ml_4QaTb/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfnoRS_5Rq9L7dgIIv6We42JeRDS58UMeNUQcffSCSVVPOWjA/viewform?usp=sf_link
+  category: Code
+  id: C09
+  
+
+- caption: Create a Game Using Pygame
+  description: Pygame is a cross-platform set of Python modules designed for writing video games. So, create a mini game like pong, snake, space invaders, etc.
+  pdfURL: https://drive.google.com/file/d/10rvABBGpFflDJ-3fsItC4fcud2UM1Yxg/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSceEvJC8kcdfYCiwAWL6881j1nsIsHEE2oELYf-i5_iInw_mw/viewform?usp=sf_link
+  category: Code
+  id: C08
+  
+
+- caption: Add a Code Snippet from CodePen to Your Portfolio Webpage
+  description: CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. Use one of those snippets to elevate your portfolio website.
+  pdfURL: https://drive.google.com/file/d/1yBzf6rjTFFTnUt4cI9WYmeblhAnXSHIR/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfXLWtbO08mF9mte8A-_mO7VvFwOuu2nFtENSHi7VjO9FO3Sw/viewform?usp=sf_link
+  category: Code
+  id: C07
+  
+
+- caption: Build a GitHub repository
+  description: Build a repository of your choice that requires installation
+  pdfURL: https://drive.google.com/file/d/1WyfOdzMvOJ-28TVSqt5xkqB7QUq_ibKw/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScVWEsB85-In5tJ5kRPvbgz2ReTV4F_LpBlhh4SMwNJUg0EGg/viewform?usp=sf_link
+  category: Code
+  id: C06
+  
+
+- caption: Arduino programming
+  description: Identify a common problem in our society and create a solution for it using Arduino
+  pdfURL: https://drive.google.com/file/d/1f163k0yt_MqTfj_yyBrP8r16KsOzimqM/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScGuFDf6RP1XTJMrWM-PmAjQqqt5omlyVaImsrsEeLUnMp3AQ/viewform?usp=sf_link
+  category: Code
+  id: C05
+  
+
+- caption: Create an AI
+  description: Create and Artificial Intelligence that answers pre-coded questions in CLI
+  pdfURL: https://drive.google.com/file/d/1E5YmuT2fSs1GvtOWDBquihmNisbTIqv0/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeP3wZze9Uif0vvq4KXFJeM90PQmzNQGE6OnKFFkvdTyi6bQw/viewform?usp=sf_link
+  category: Code
+  id: C04
+  
+
+- caption: Introduction to GitHub
+  description: Introduce yourself to GitHub
+  pdfURL: https://drive.google.com/file/d/1kfD1RSROh-bTDDQ_AF4SCegbYmyQHbp-/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScBcNtzliJrO8CX2CJUJKc5Efek9HKbjZzf1skEyyLgXILwPA/viewform?usp=sf_link
+  category: Code
+  id: C03
+  
+
+- caption: Make a calculator
+  description: Make a basic calculator using a programming language of your choice
+  pdfURL: https://drive.google.com/file/d/1WmLow2BQuvZYlM-kmy6DWJtrQ-rdwOgI/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfzdy5aUI-wzFHQZSY4NPoaYbWcLckzNTdNUMLV5SHTjVRHcQ/viewform?usp=sf_link
+  category: Code
+  id: C02
+  
+
+- caption: Make a portfolio website
+  description: Make a portfolio website using HTML and CSS And host it on github pages
+  pdfURL: https://drive.google.com/file/d/12eI-IGzewqrhmPN54SAtiXPk_Ttxt2Pb/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdi27DNQsFGgo-CmHTo1PtavDLOJxZ6Pk6tB-FIVW1mnGWhAw/viewform?usp=sf_link
+  category: Code
+  id: C01
+  
