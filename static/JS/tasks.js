@@ -19,7 +19,7 @@ if (currentTheme) {
 }
 
 var dark = "Enable Dark mode"
-var light = "Disble dark mode"
+var light = "Disable dark mode"
 
 
 function textChangeDark() {
@@ -43,5 +43,3 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
-
