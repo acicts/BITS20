@@ -5,109 +5,48 @@ css: static/CSS/tasks.css
 js: static/JS/tasks.js
 change_theme: true
 ---
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("tasks");
-  if (c == "all") c = "";
-  
-  for (i = 0; i < x.length; i++) {
-    RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
-  }
-}
-
-
-function AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-
-function RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-var btnContainer = document.getElementById("BtnContainer");
-var btns = btnContainer.getElementById("btnnd");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-
-</script>
-<div id="filterContainer" class="card">
-  <button id="btnnd active" onclick="filterSelection('all')" class="btn btn-success"> Show all</button>
-  <button id="btnnd" onclick="filterSelection('imp')" class="btn btn-danger"> Important</button>
-  <button id="btnnd" onclick="filterSelection('code')" class="btn btn-primary"> Code</button>
-  <button id="btnnd" onclick="filterSelection('explore')" class="btn btn-info"> Explore</button>
-  <button id="btnnd" onclick="filterSelection('Design')" class="btn btn-secondary">Design</button>
-
+<center>
+<div class="row ">
+  <div id="filterContainer" class="container"  onloadstart="filterSelection('all')" style="position: relative fixed;" >
+<button type="submit" onclick="filterSelection('all')" class="btn btn-outline-danger btn-lg" style="margin-right: 3px;">All Tasks  </button>
+<button type="submit" onclick="filterSelection('important')" class="btn btn-outline-warning btn-lg" style="margin-right: 3px;">Important</button>
+<button type="submit" onclick="filterSelection('code')" class="btn btn-outline-success btn-lg" style="margin-right: 3px;">Code</button>
+<button type="submit" onclick="filterSelection('design')" class="btn btn-outline-success btn-lg" style="margin-right: 3px;">Design</button>
+<button type="submit" onclick="filterSelection('explore')" class="btn btn-outline-success btn-lg" style="margin-right: 3px;">Explore</button>
 </div>
+</div>
+</center>
 
+
+<div class="container">
 <div class="row task-list" id="row1">
 
-  <div class="tasks important" style="background-color: rgb(0, 5, 75); color: white;">
-    <h4> <b>The first Online Test is live now !</b> <button type="button" class="btn btn-primary" id="id">Online Test</button></h4>
-    <p style="width: 80%;">
-      There are 4 online tests for BITS participants. You can participate in these tests and score a high number of points.
-      It will help you on your way to The Winner Of BITS 2020. The first online test in now open. Take the test and claim your points !. 
-      Every online test will be available only for 12 hours and be sure to participate before it expires.
-    </p>
-    <div class="buttons">
-
-      <a class="btn btn-info" href="./onlinetest.html" id="catocery">Visit Tests</a>
-    </div>
-  
-</div>
 
   <div class="tasks important">
-    <h4><b>IMPORTANT</b></h4>
-    <h4>HTML, CSS and JavaScript Coding Webinar - 01<button type="button" class="btn btn-primary" id="id">Task ID: CD01</button></h4>
-    <p>A 2 hour coding session on the 15th of June [Monday]
-      from 6.00 pm to 8.00 pm, for all BITS Paticipants
-      on HTML, CSS and JavaScript. All who participate can
-      earn additional points.
+    <h4><b></b></h4>
+    <h4>HTML, CSS and JavaScript Coding Webinar - 02<button type="button" class="btn btn-primary" id="id">Task ID: CD02</button></h4>
+    <p>A 2 hour coding session on the 22nd of June [Monday] from 6.00 pm to 8.00 pm, for all BITS Paticipants on HTML, CSS and JavaScript. All who participate can earn additional points.
+
+
     </p>
     <div class="buttons">
 
       <a class="btn btn-info" href="https://drive.google.com/file/d/1i439a9PV5CInM7T05lYQK94rZZwdl39A/view?usp=sharing" id="catocery">More
         Information</a>
-        <a class="btn btn-success" onclick="alertmeeting()">Go to Meeting</a>
-      <button type="button" class="btn btn-primary" id="catocery">Code & Design</button>
+        <a class="btn btn-outline-success" onclick="alertmeeting()">Go to Meeting</a>
+      <button type="button" class="btn btn-outline-primary" id="catocery">Code & Design</button>
     </div>
   
 </div>
 
   {% for code in site.data.code %}
-  <div class="tasks task-cat {{code.category}} code">
+  <div class="t tasks task-cat {{code.category}} code">
     
     <h4>{{code.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{code.id}} </button></h4>
     <p>{{code.description}}</p>
     
     <div class="buttons">
-
-      <a class="btn btn-info" href="{{code.pdfURL}}" id="catocery">Task
-        Information</a>
+<a href="{{code.pdfURL}}" class="btn btn-info">Task Details</a>
         <a class="btn btn-success" href="{{code.submitURL}}" id="catocery">Submit Task</a>
       <button type="button" class="btn btn-primary" id="catocery">{{code.category}} </button>
     </div>
@@ -115,31 +54,30 @@ for (var i = 0; i < btns.length; i++) {
 </div>
   {% endfor %}
   {% for design in site.data.design %}
-  <div class="tasks task-cat {{design.category}} design">
+  <div class="t tasks task-cat {{design.category}} design">
     
     <h4>{{design.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{design.id}} </button></h4>
     <p>{{design.description}}</p>
     
     <div class="buttons">
-
-      <a class="btn btn-info" href="{{design.pdfURL}}" id="catocery">Task
-        Information</a>
+<a href="{{design.pdfURL}}" class="btn btn-info">Task Details</a>
         <a class="btn btn-success" href="{{design.submitURL}}" id="catocery">Submit Task</a>
       <button type="button" class="btn btn-primary" id="catocery">{{design.category}} </button>
+        
+       
     </div>
   
 </div>
   {% endfor %}
   {% for explore in site.data.explore %}
-  <div class="tasks task-cat {{explore.category}} explore">
+  <div class="t tasks task-cat {{explore.category}} explore">
     
     <h4>{{explore.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{explore.id}} </button></h4>
     <p>{{explore.description}}</p>
     
     <div class="buttons">
 
-      <a class="btn btn-info" href="{{explore.pdfURL}}" id="catocery">Task
-        Information</a>
+      <a href="{{explore.pdfURL}}" class="btn btn-info">Task Details</a>
         <a class="btn btn-success" href="{{explore.submitURL}}" id="catocery">Submit Task</a>
       <button type="button" class="btn btn-primary" id="catocery">{{explore.category}} </button>
     </div>
@@ -148,3 +86,55 @@ for (var i = 0; i < btns.length; i++) {
   {% endfor %}
 
 </div>
+
+</div>
+<script>
+ 
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("tasks");
+    if (c == "all") c = "";
+    
+    for (i = 0; i < x.length; i++) {
+      RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+    }
+  }
+  
+  
+  function AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  
+  
+  function RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  var btnContainer = document.getElementById("BtnContainer");
+  var btns = btnContainer.getElementsByClassName("btnnd");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
