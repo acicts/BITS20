@@ -1,8 +1,144 @@
-- name: Student 1
-  class: 10-6
+- name: Thusal Ranawaka
+  class: 09-11
+  marks: 196
+  index: 1
+
+- name: Pasindu Yahampath 
+  class: 11-04
+  marks: 167
+  index: 2
+
+- name: Sasvidu Ranthul
+  class: 09-01
+  marks: 153
+  index: 3
+
+- name: Lithira Mendis
+  class: 08-09
+  marks: 144
+  index: 4
+
+- name: Manuth Ranawaka
+  class: 07-09
+  marks: 143
+  index: 5
+
+- name: Anupama Dissanayake
+  class: 10-04
+  marks: 135
+  index: 6
+
+- name: Thulina Perera
+  class: 11-05
+  marks: 134
+  index: 7
+
+- name: Inuka Batawala
+  class: 09-02
+  marks: 128
+  index: 8
+
+- name: Senura Ratnayake
+  class: 08-11
+  marks: 125
+  index: 9
+
+- name: Dinath Fernando
+  class: 08-09
+  marks: 115
+  index: 10
+
+- name: Nimsandu Kottage
+  class: 10-10
+  marks: 109
+  index: 11
+
+- name: Lithika Methsilu
+  class: 08-04
+  marks: 108
+  index: 12
+  
+- name: Thulana Vithanage
+  class: 09-02
   marks: 100
+  index: 13
+  
+- name: Vidul Batawala
+  class: 07-07
+  marks: 99
+  index: 14
 
-- name: Student 2
-  class: 6-6
-  marks: 30
+- name: Onija Nethsara
+  class: 09-11
+  marks: 86
+  index: 15
 
+- name: Didula Dinoj
+  class: 11-09
+  marks: 85
+  index: 16
+
+- name: Ramiru Ariyaratne
+  class: 10-04
+  marks: 77 
+  index: 17
+
+- name: Janith Kaushalya
+  class: 08-03
+  marks: 75
+  index: 18
+
+- name: Tharusha Aloka
+  class: 08-01
+  marks: 70
+  index: 19
+
+- name: Sadev Herath
+  class: 08-04
+  marks: 55
+  index: 20
+  
+- name: Pulindu Perera
+  class: 09-02
+  marks: 53
+  index: 21
+  
+- name: Dulkith Induwana
+  class: 06-04
+  marks: 45
+  index: 22
+
+- name: Chandupa Weerakkody
+  class: 11-06
+  marks: 24
+  index: 23
+
+- name: Lithum Adhikari
+  class: 08-11
+  marks: 24 
+  index: 23
+
+- name: Isara Umayantha
+  class: 07-09
+  marks: 18
+  index: 25
+
+- name: Nisal Thejana
+  class: 08-09
+  marks: 15
+  index: 26
+
+- name: Thenul Chamikara
+  class: 11-06
+  marks: 14
+  index: 27
+
+- name: Yasiru Jayasinghe
+  class: 10-03
+  marks: 13
+  index: 28
+
+- name: Sandul Gunarathne
+  class: 08-09
+  marks: 5
+  index: 29
