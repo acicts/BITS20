@@ -1,3 +1,47 @@
+- caption: Code a To-Do app
+  description: Learn the
+basic functionality of a To-Do app and make one yourself.
+  pdfURL: https://drive.google.com/file/d/1ItsuPeD-fuHSu78tE-lk7KSWprI4V-TE/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScOH8fz1dRcZA4Dj2hOjaUOQ0YxS4PRondZo0FJuQsWk7OxAw/viewform?usp=sf_link
+  category: Code
+  id: C18
+
+- caption: Scrape the web
+  description: Learn what is web scraping and learn to build one yourself.
+  pdfURL: https://drive.google.com/file/d/1Iemz9y9m_ityUFT6gJpXp0fA6o8Oe6Nj/view?usp=sharing 
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSedZYforAlUi-pS_4JAoOD4fZ53bnM7d6CXnnscVA4U3Y-fLA/viewform?usp=sf_link
+  category: Code
+  id: C17
+
+- caption: Machine learning for identify an object
+  description: Train a ML AI to identify a mobile phone and a book.
+  pdfURL: https://drive.google.com/file/d/1IlSPu3jY0hW11k5aXJztwINYeKmR8Fx7/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdVsEO3Bd3yYVxijtxHaCbiZXcOPe3wLTMCTDeED4IozoFetQ/viewform?usp=sf_link
+  category: Code
+  id: C16
+
+- caption: Make a mini game using JavaScript
+  description: Create a simple game that runs in a browser.
+  pdfURL: https://drive.google.com/file/d/1I-PsGbxndh07BBSIAmc9BsqN_w56s9th/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSf2FsBbQchlpYJjuqEhuJJ9m_fO85QuLX3wNm2VKZb0WM-rAw/viewform?usp=sf_link
+  category: Code
+  id: C15
+
+- caption: Solve a Problem in Hackerrank Platform
+  description: Go to hackerrank.com and solve the first 3 questions on your favorite subject.
+  pdfURL: https://drive.google.com/file/d/1IT6ygNXjmvLygdUaJhh9Se-Ow1xSHo_9/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeJMdjtFxbcdRhggDkzclPscJWMkCOSMU3XjOBmat0f08nItA/viewform?usp=sf_link
+  category: Code
+  id: C14
+
+
+- caption: Host a web page with firebase
+  description: Make a very simple website about FireBase and host it with firebase.
+  pdfURL: https://drive.google.com/file/d/1IsiQDSNhDUFA1J0Vc5mQ-Bs5KiZJbMts/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSc1GbU0eq7VcxovwwFLX_a6H071xasvHrigcibjEMNvt7szUA/viewform?usp=sf_link
+  category: Code
+  id: C13
+
 - caption: Write a Code to Automatically Grade a Student's Marks
   description: In this task you have to make a program to automatically grade a student’s marks using any programming language you prefer.
   pdfURL: https://drive.google.com/file/d/1mZ1vQDzlVenKSlpOct92F9oQFrYuQ4Yt/view?usp=sharing
@@ -82,6 +126,49 @@
   category: Code
   id: C01
 
+- caption: Make an animated text intro for your name
+  description: In this task you have to make an animated text intro for your name.
+  pdfURL: https://drive.google.com/file/d/1IqnLHSdYjd2G3z8Nv4II7irZxF9JWbQ2/view?usp=sharing 
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSePrtYlsuwNjL7u6_q5o_xSQWfkVhJ6cH69NWnUzHupyzxHnQ/viewform?usp=sf_link
+  category: Design
+  id: D18
+
+- caption: Make a lyric video for a song of your choice
+  description: Create a lyrics video for any song you like
+  pdfURL: https://drive.google.com/file/d/1I1dN3FscRb068YfQTkEYsUPhF89OMTM6/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfDclbzYCG4Cb7Icihj_zkrgZCs87WJ87_xreZW8aGBDjv7oQ/viewform?usp=sf_link
+  category: Design
+  id: D17
+
+- caption: Design your future house
+  description: Design your future house using an architecture software
+  pdfURL: https://drive.google.com/file/d/1IB5BA4aLASDBkJ1S5LUc00vqtlwnGKYb/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfkV1uS0XRlHixfNc6o7u3gxLdKnXwhZcAMMhiVuuEua3vqaQ/viewform?usp=sf_link
+  category: Design
+  id: D16
+
+- caption: Create a 3D figure of the CoVID-19 virus
+  description: Make a well-detailed 3D figure of the CoVID-19 virus.
+  pdfURL: https://drive.google.com/file/d/1IrEY_5OpxhYgRB85FiL9OT6DzvWl_y5P/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdwxs9NGIyMeBpNv0saChQgmLcZss08RDIpyyeX_Kgy6fjtpw/viewform?usp=sf_link
+  category: Design
+  id: D15
+
+- caption: Design a cover for a book
+  description: Make a brilliant-looking cover for your favorite book.
+  pdfURL: https://drive.google.com/file/d/1INqrqLM2H2D4sDch_id1sufCu9QnAt84/view?usp=sharing 
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe2_z9QQYGKAjm-EaSY0CHSs6l0PlggwplWUq47RbMLoD7yZQ/viewform?usp=sf_link
+  category: Design
+  id: D14
+
+- caption: Create an animated 3D chart or a graph for worldwide CoVid-19 infections in May
+  description: Create an animated 3D chart or a graph to show worldwide CoVid-19 infections in the month of May.
+  pdfURL: https://drive.google.com/file/d/1IYJOmFGlVV-peCRQbBII2HPtRm3o2wEQ/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScBewFYL6L-9jmihgSwfJtOI5UjrfpQ8XPMRBDvD-ByqhbJUQ/viewform?usp=sf_link
+  category: Design
+  id: D13
+
+
 - caption: Draw Clip Arts of Hardware Components
   description: Vector Graphics software will let you make scalable images as well as things such as clip arts. Be creative and design 5 clip arts of 5 different hardware components such as RAM, cooling fan, CPU etc. and send them to us in PNG format.
   pdfURL: https://drive.google.com/file/d/19orI-9Qp95KzPqSk_Smq8pyY1wt45jrQ/view?usp=sharing
@@ -165,6 +252,48 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfNcDqnwoQpNNHHfTk066V-XKh9zV_Km84PpEdy1Bu3WmO1mA/viewform?usp=sf_link
   category: Design
   id: D01
+
+- caption: Write a blog about your favorite tech giant
+  description: You have to write a blog about one of your favorite tech Moghul
+  pdfURL: https://drive.google.com/file/d/1IlKNd1-4JbdleVzyq9PnBTVxQbb6oa2C/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfEGy_ShTChT2F_96cDch2wlU-tR6NUjXOvHnwnKncClpyDUw/viewform?usp=sf_link
+  category: Explore
+  id: E18
+
+- caption: 
+  description: 
+  pdfURL: 
+  submitURL: 
+  category: Explore
+  id: E17
+
+- caption: 
+  description: 
+  pdfURL: 
+  submitURL: 
+  category: Explore
+  id: E16
+
+- caption: 
+  description: 
+  pdfURL: 
+  submitURL: 
+  category: Explore
+  id: E15
+
+- caption: 
+  description: 
+  pdfURL: 
+  submitURL: 
+  category: Explore
+  id: E14
+
+- caption: 
+  description: 
+  pdfURL: 
+  submitURL: 
+  category: Explore
+  id: E13
 
 - caption: Write a Set of Instructions to Stay Safe from Malware
   description: Malware is a major problem for the functionality of a device. So, write a set of instructions to stay safe from malware.
