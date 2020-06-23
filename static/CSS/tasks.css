@@ -2,7 +2,7 @@
 
 body {
   background-color: var(--bg-color);
-  color: blanchedalmond;
+  color: white;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
 }
@@ -136,4 +136,16 @@ body {
     margin-left: auto;
   }
 
+}
+
+.firstvideo{
+  border: solid white 3px;
+  width: 80%;
+  position: relative;
+  margin-left: 10%;
+  margin-bottom: 11%;
+}
+
+.outerheading{
+  color: var(--font-color);
 }
