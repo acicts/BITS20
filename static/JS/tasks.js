@@ -1,6 +1,16 @@
 function alertmeeting() {
-    alert('The meeting link will be released on 15th of June at 00.00am in the morning!');
+    alert('The meeting link will be released on 29th of June at 00.00am in the morning!');
 }
+
+function alertmeetinginfo() {
+    alert('More info on the meeting will be released on 26th of June [Friday]!');
+}
+
+noContext = document.getElementById('noContextMenu');
+
+noContext.addEventListener('contextmenu', e => {
+  e.preventDefault();
+});
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
