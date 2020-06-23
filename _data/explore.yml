@@ -1,10 +1,51 @@
+- caption: Write a blog about your favorite tech giant
+  description: You have to write a blog about one of your favorite tech Moghul
+  pdfURL: https://drive.google.com/file/d/1IlKNd1-4JbdleVzyq9PnBTVxQbb6oa2C/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfEGy_ShTChT2F_96cDch2wlU-tR6NUjXOvHnwnKncClpyDUw/viewform?usp=sf_link
+  category: Explore
+  id: E18
+
+- caption: Write a blog about quantum computing
+  description: Write a blog about this subject with your own words.
+  pdfURL: https://drive.google.com/file/d/1J6yFU8EBxuvIzb_lbolHBxpdzxo_gMKQ/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSddTm4kdaZMj_24e_9XjELmU0hn687plmceTChwvvpTi7__rg/viewform?usp=sf_link
+  category: Explore
+  id: E17
+
+- caption: Follow ACICTS Instagram page
+  description: Follow ACICTS Instagram page
+  pdfURL: https://drive.google.com/file/d/1IQvd80ltAKVIy3OKYEoe5jw6ULoRarQX/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScutKlsTl2dZOknNWRRbEjH-CuFAGNPRX-3Jj07DG0ZOXF4DQ/viewform?usp=sf_link
+  category: Explore
+  id: E16
+
+- caption: Write an error report for a Blue-screen-of-death you experienced
+  description: Write an error report for a Blue-screen-of-death you experienced
+  pdfURL: https://drive.google.com/file/d/1ISvTY2cJD7ufphEyB3V1CYmOOlG8KMAF/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSea2-Y2wWdhHt88z09qU_VPY1XbencNcufecxRgbQupJgg26g/viewform?usp=sf_link
+  category: Explore
+  id: E15
+
+- caption: Make a guide for bitcoin mining
+  description: Use your own words to describe Bitcoin mining
+  pdfURL: https://drive.google.com/file/d/1IYDB958IlMf3Q1aE5T0F_L1ssbms18cW/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSd4Bx29ndGiZFv4cFIM7e0z5n6eScaaNdT4UbKWaaSMXOxJaw/viewform?usp=sf_link
+  category: Explore
+  id: E14
+
+- caption: Introduction to API
+  description: Learn what is an API (Application programming interface) and write and tutorial for absolute beginners
+  pdfURL: https://drive.google.com/file/d/1Iq4iQej9kDjWgkHSjL-apJ3SHYzUmJp2/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfD41qK155o9WYSlt3fjR2q5zMm5kMMxlUuHzv2jFi49Jrl_A/viewform?usp=sf_link
+  category: Explore
+  id: E13
+
 - caption: Write a Set of Instructions to Stay Safe from Malware
   description: Malware is a major problem for the functionality of a device. So, write a set of instructions to stay safe from malware.
   pdfURL: https://drive.google.com/file/d/1mDd01jo76janfkEifcxQO9SHMAq5jlTg/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe0wkqDpvTtv6dPTvpUWU3heyp3jRGZ8gnnXH1plzcZupt-Fw/viewform?usp=sf_link
   category: Explore
   id: E12
-  
 
 - caption: Write a Review about Your Favourite Operating System
   description: If you have a general interest in information technology, you may have used at least more than 3 operating systems. Write a review about your favourite one. Include images, your likes/dislikes and why it's your favourite.
@@ -12,7 +53,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfBmnD0lkHSnOdjvNd79CrTupokKNoV9xzaKK6f8a74BBz_2w/viewform?usp=sf_link
   category: Explore
   id: E11
-  
 
 - caption: Write a Blog about Your Experience in BITS So Far
   description: It has been a week since registrations for BITS have been opened and you probably had a busy week with competing in BITS. Write a blog about your experience in BITS so far to tell others about BITS.
@@ -20,7 +60,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSddCuQxCKyvEN2bCUO_RqUS3VIzmtBBvH01G5inoWe0Gy2QTw/viewform?usp=sf_link
   category: Explore
   id: E10
-  
 
 - caption: Review the BITS Website
   description: It has been a week since registrations for BITS have been opened; and you probably had a busy week with competing in BITS. Now you have to review the BITS website and tell us everything you liked and didn’t like. It’s okay to be critical when you’re doing this.
@@ -28,7 +67,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSffAH7ZaTsduT-HTkAFQQMm-Cgg604qiaq6hD3nSGsZ1mRGPg/viewform?usp=sf_link
   category: Explore
   id: E09
-  
 
 - caption: Make Tasks for BITS 2021
   description: BITS 2021 will also be held in next year. You have to create 3 tasks for the 3 categories and submit them. Be unique and reasonable.
@@ -36,7 +74,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdJkzbvwwY_ftuxYHgvmDE_AneliQjMrVrRSbxZhcTWS443Pw/viewform?usp=sf_link
   category: Explore
   id: E08
-  
 
 - caption: Create a Troubleshooting Flowchart
   description: By using a flowchart, you can easily understand if anything is wrong with your PC. Make a flowchart on your own to understand the troubleshooting process of an error.
@@ -44,7 +81,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScxv9FkcU1Zaq92tKdlJPdOEuw3rPgbKW3nWdWUPVDYuMB7Ew/viewform?usp=sf_link
   category: Explore
   id: E07
-  
 
 - caption: Write a Blog about Artificial Intelligence
   description: Write a blog on about artificial intelligence on blogger.com
@@ -52,7 +88,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe_CTgoVsFrjpHcgkxRA5HY9rQtNnDjnmZAwkzDPPPhpe70aw/viewform?usp=sf_link
   category: Explore
   id: E06
-  
 
 - caption: Make a Project Proposal for an App Idea
   description: Make a project proposal for an unnique app idea and submit.
@@ -60,7 +95,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeHI60N9IY1-yoohRX1A1UxerGBx1afFRxbnffdSagUlx1-Ng/viewform?usp=sf_link
   category: Explore
   id: E05
-  
 
 - caption: Make a PDF Tutorial for a Software or a Programming Language of Your Choice
   description: Make a PDF tutorial for any software or programming language of your choice.
@@ -68,7 +102,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdp0KyEl3MGb0L7TtquyB4faydGZWnUnK4vRNzAUeM5CHmtJA/viewform?usp=sf_link
   category: Explore
   id: E04
-  
 
 - caption: Find a Bug in BITS Website
   description: Report the bugs you find in BITS 2020 website via an e-mail.
@@ -76,7 +109,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeAKwzaSuM7PeRKnc7oM5IZKl6gvptgAJRMze5Ae75jiy7mqQ/viewform?usp=sf_link
   category: Explore
   id: E03
-  
 
 - caption: Create a Presentation about Google-Code-In
   description: Explore what GCI is and create a presentation about the Google-Code-In contest.
@@ -84,7 +116,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScL7_daGvu6Ol3h2WQQhvAeOZ6sC11sX_a7MPktiQ4m3A9dQQ/viewform?usp=sf_link
   category: Explore
   id: E02
-  
 
 - caption: Create a Getting Started Guide for BITS
   description: Create a getting started guide for BITS
@@ -92,4 +123,3 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeZUyGVSvoPZlikec7hhobIXMEN40ieJXS4FSg43JbuUwdP_Q/viewform?usp=sf_link
   category: Explore
   id: E01
-  
