@@ -1,10 +1,52 @@
+- caption: Code a To-Do app
+  description: Learn the basic functionality of a To-Do app and make one yourself.
+  pdfURL: https://drive.google.com/file/d/1ItsuPeD-fuHSu78tE-lk7KSWprI4V-TE/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLScOH8fz1dRcZA4Dj2hOjaUOQ0YxS4PRondZo0FJuQsWk7OxAw/viewform?usp=sf_link
+  category: Code
+  id: C18
+
+- caption: Scrape the web
+  description: Learn what is web scraping and learn to build one yourself.
+  pdfURL: https://drive.google.com/file/d/1Iemz9y9m_ityUFT6gJpXp0fA6o8Oe6Nj/view?usp=sharing 
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSedZYforAlUi-pS_4JAoOD4fZ53bnM7d6CXnnscVA4U3Y-fLA/viewform?usp=sf_link
+  category: Code
+  id: C17
+
+- caption: Machine learning for identify an object
+  description: Train a ML AI to identify a mobile phone and a book.
+  pdfURL: https://drive.google.com/file/d/1IlSPu3jY0hW11k5aXJztwINYeKmR8Fx7/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdVsEO3Bd3yYVxijtxHaCbiZXcOPe3wLTMCTDeED4IozoFetQ/viewform?usp=sf_link
+  category: Code
+  id: C16
+
+- caption: Make a mini game using JavaScript
+  description: Create a simple game that runs in a browser.
+  pdfURL: https://drive.google.com/file/d/1I-PsGbxndh07BBSIAmc9BsqN_w56s9th/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSf2FsBbQchlpYJjuqEhuJJ9m_fO85QuLX3wNm2VKZb0WM-rAw/viewform?usp=sf_link
+  category: Code
+  id: C15
+
+- caption: Solve a Problem in Hackerrank Platform
+  description: Go to hackerrank.com and solve the first 3 questions on your favorite subject.
+  pdfURL: https://drive.google.com/file/d/1IT6ygNXjmvLygdUaJhh9Se-Ow1xSHo_9/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeJMdjtFxbcdRhggDkzclPscJWMkCOSMU3XjOBmat0f08nItA/viewform?usp=sf_link
+  category: Code
+  id: C14
+
+
+- caption: Host a web page with firebase
+  description: Make a very simple website about FireBase and host it with firebase.
+  pdfURL: https://drive.google.com/file/d/1IsiQDSNhDUFA1J0Vc5mQ-Bs5KiZJbMts/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSc1GbU0eq7VcxovwwFLX_a6H071xasvHrigcibjEMNvt7szUA/viewform?usp=sf_link
+  category: Code
+  id: C13
+
 - caption: Write a Code to Automatically Grade a Student's Marks
   description: In this task you have to make a program to automatically grade a student’s marks using any programming language you prefer.
   pdfURL: https://drive.google.com/file/d/1mZ1vQDzlVenKSlpOct92F9oQFrYuQ4Yt/view?usp=sharing
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSe6ydfETg-0yf1d8yGi6KXXyi_9MtYVAkhYoHpuA1R7BBHo9Q/viewform?usp=sf_link
   category: Code
   id: C12
-  
 
 - caption: Use Turtle to Draw Random Patterns
   description: Turtle graphics is a popular python module for introducing programming to students. Using this module, you have to make a program that draws random patterns.
@@ -12,7 +54,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdpM3mC-muRKSJJJ0XIp1i8WHx_i9qvfRPPVeU6Kv9bouu1HA/viewform?usp=sf_link
   category: Code
   id: C11
-  
 
 - caption: Program a Dice Using Scratch
   description: In this task, you have to make a program that automatically outputs a random number between 1 to 6; with a sprite that is used as the dice.
@@ -20,7 +61,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfFVtLnQFDCu_PojsuWryRhLb7aols-PKkKqe0ivIUooe6rKQ/viewform?usp=sf_link
   category: Code
   id: C10
-  
 
 - caption: Create a Simple Music Box with Arduino
   description: If you have some knowledge in Arduino, this is an easy task for you. Use an Arduino board, a buzzer and other components to make circuit that plays a simple tune by a press of a button.
@@ -28,7 +68,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfnoRS_5Rq9L7dgIIv6We42JeRDS58UMeNUQcffSCSVVPOWjA/viewform?usp=sf_link
   category: Code
   id: C09
-  
 
 - caption: Create a Game Using Pygame
   description: Pygame is a cross-platform set of Python modules designed for writing video games. So, create a mini game like pong, snake, space invaders, etc.
@@ -36,7 +75,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSceEvJC8kcdfYCiwAWL6881j1nsIsHEE2oELYf-i5_iInw_mw/viewform?usp=sf_link
   category: Code
   id: C08
-  
 
 - caption: Add a Code Snippet from CodePen to Your Portfolio Webpage
   description: CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. Use one of those snippets to elevate your portfolio website.
@@ -44,7 +82,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfXLWtbO08mF9mte8A-_mO7VvFwOuu2nFtENSHi7VjO9FO3Sw/viewform?usp=sf_link
   category: Code
   id: C07
-  
 
 - caption: Build a GitHub repository
   description: Build a repository of your choice that requires installation
@@ -52,7 +89,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScVWEsB85-In5tJ5kRPvbgz2ReTV4F_LpBlhh4SMwNJUg0EGg/viewform?usp=sf_link
   category: Code
   id: C06
-  
 
 - caption: Arduino programming
   description: Identify a common problem in our society and create a solution for it using Arduino
@@ -60,7 +96,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScGuFDf6RP1XTJMrWM-PmAjQqqt5omlyVaImsrsEeLUnMp3AQ/viewform?usp=sf_link
   category: Code
   id: C05
-  
 
 - caption: Create an AI
   description: Create and Artificial Intelligence that answers pre-coded questions in CLI
@@ -68,7 +103,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeP3wZze9Uif0vvq4KXFJeM90PQmzNQGE6OnKFFkvdTyi6bQw/viewform?usp=sf_link
   category: Code
   id: C04
-  
 
 - caption: Introduction to GitHub
   description: Introduce yourself to GitHub
@@ -76,7 +110,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLScBcNtzliJrO8CX2CJUJKc5Efek9HKbjZzf1skEyyLgXILwPA/viewform?usp=sf_link
   category: Code
   id: C03
-  
 
 - caption: Make a calculator
   description: Make a basic calculator using a programming language of your choice
@@ -84,7 +117,6 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfzdy5aUI-wzFHQZSY4NPoaYbWcLckzNTdNUMLV5SHTjVRHcQ/viewform?usp=sf_link
   category: Code
   id: C02
-  
 
 - caption: Make a portfolio website
   description: Make a portfolio website using HTML and CSS And host it on github pages
@@ -92,4 +124,3 @@
   submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdi27DNQsFGgo-CmHTo1PtavDLOJxZ6Pk6tB-FIVW1mnGWhAw/viewform?usp=sf_link
   category: Code
   id: C01
-  
