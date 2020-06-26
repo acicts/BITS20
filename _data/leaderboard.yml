@@ -1,144 +1,194 @@
 - name: Thusal Ranawaka
   class: 09-11
-  marks: 196
+  marks: 445
   index: 1
 
-- name: Pasindu Yahampath 
+- name: Pasindu Yahampath
   class: 11-04
-  marks: 167
+  marks: 405
   index: 2
 
-- name: Sasvidu Ranthul
-  class: 09-01
-  marks: 153
+- name: Inuka Batawala
+  class: 09-02
+  marks: 399
   index: 3
 
 - name: Lithira Mendis
   class: 08-09
-  marks: 144
+  marks: 370
   index: 4
 
-- name: Manuth Ranawaka
-  class: 07-09
-  marks: 143
+- name: Vidul Batawala
+  class: 07-07
+  marks: 352
   index: 5
-
-- name: Anupama Dissanayake
-  class: 10-04
-  marks: 135
-  index: 6
-
-- name: Thulina Perera
-  class: 11-05
-  marks: 134
-  index: 7
-
-- name: Inuka Batawala
-  class: 09-02
-  marks: 128
-  index: 8
-
-- name: Senura Ratnayake
-  class: 08-11
-  marks: 125
-  index: 9
-
-- name: Dinath Fernando
-  class: 08-09
-  marks: 115
-  index: 10
 
 - name: Nimsandu Kottage
   class: 10-10
-  marks: 109
+  marks: 342
+  index: 6
+
+- name: Senura Ratnayake
+  class: 08-11
+  marks: 324
+  index: 7
+
+- name: Sasvidu Ranthul
+  class: 09-01
+  marks: 296
+  index: 8
+
+- name: Thulina Perera
+  class: 11-05
+  marks: 288
+  index: 9
+
+- name: Manuth Ranawaka
+  class: 07-09
+  marks: 280
+  index: 10
+
+- name: Anupama Dissanayake
+  class: 10-04
+  marks: 241
   index: 11
-
-- name: Lithika Methsilu
-  class: 08-04
-  marks: 108
-  index: 12
-  
-- name: Thulana Vithanage
-  class: 09-02
-  marks: 100
-  index: 13
-  
-- name: Vidul Batawala
-  class: 07-07
-  marks: 99
-  index: 14
-
-- name: Onija Nethsara
-  class: 09-11
-  marks: 86
-  index: 15
 
 - name: Didula Dinoj
   class: 11-09
-  marks: 85
-  index: 16
+  marks: 219
+  index: 12
 
-- name: Ramiru Ariyaratne
+- name: Lithika Methsilu
+  class: 08-04
+  marks: 213
+  index: 13
+
+- name: Sudhira Jayatillaka
   class: 10-04
-  marks: 77 
+  marks: 211
+  index: 14
+
+- name: Thulana Vithanage
+  class: 09-02
+  marks: 210
+  index: 15
+
+- name: Dinath Fernando
+  class: 08-09
+  marks: 210
+  index: 15
+
+- name: Nethula Peiris
+  class: 09-08
+  marks: 174
   index: 17
 
-- name: Janith Kaushalya
-  class: 08-03
-  marks: 75
+- name: Onija Nethsara
+  class: 09-11
+  marks: 172
   index: 18
 
 - name: Tharusha Aloka
   class: 08-01
-  marks: 70
+  marks: 150
   index: 19
+
+- name: Harshana Gunawansa
+  class: 10-03
+  marks: 139
+  index: 20
+
+- name: Pulindu Perera
+  class: 09-02
+  marks: 123
+  index: 21
+
+- name: Janith Kaushalya
+  class: 08-03
+  marks: 110
+  index: 22
+
+- name: Thenul Chamikara
+  class: 11-06
+  marks: 99
+  index: 23
+
+- name: Ramiru Ariyaratne
+  class: 10-04
+  marks: 77
+  index: 24
+
+- name: Pasindu Dushan
+  class: 10-07
+  marks: 76
+  index: 25
+
+- name: Sasanka lochana
+  class: 11-10
+  marks: 71
+  index: 26
 
 - name: Sadev Herath
   class: 08-04
   marks: 55
-  index: 20
-  
-- name: Pulindu Perera
-  class: 09-02
-  marks: 53
-  index: 21
-  
+  index: 27
+
+- name: Dinew methviru
+  class: 08-05
+  marks: 55
+  index: 27
+
+- name: Senuda Savinjith
+  class: 08-04
+  marks: 50
+  index: 29
+
 - name: Dulkith Induwana
   class: 06-04
   marks: 45
-  index: 22
+  index: 30
+
+- name: Visith Jayawardana
+  class: 10-10
+  marks: 45
+  index: 30
+
+- name: Lithum Adhikari
+  class: 08-11
+  marks: 34
+  index: 32
+
+- name: Isara Umayantha
+  class: 07-09
+  marks: 28
+  index: 33
 
 - name: Chandupa Weerakkody
   class: 11-06
   marks: 24
-  index: 23
-
-- name: Lithum Adhikari
-  class: 08-11
-  marks: 24 
-  index: 23
-
-- name: Isara Umayantha
-  class: 07-09
-  marks: 18
-  index: 25
+  index: 34
 
 - name: Nisal Thejana
   class: 08-09
-  marks: 15
-  index: 26
+  marks: 22
+  index: 35
 
-- name: Thenul Chamikara
-  class: 11-06
-  marks: 14
-  index: 27
+- name: Thisuka Jayaratne
+  class: 11-03
+  marks: 20
+  index: 36
 
 - name: Yasiru Jayasinghe
   class: 10-03
   marks: 13
-  index: 28
+  index: 37
+
+- name: Migara Bhanu
+  class: 08-09
+  marks: 10
+  index: 38
 
 - name: Sandul Gunarathne
   class: 08-09
   marks: 5
-  index: 29
+  index: 39
