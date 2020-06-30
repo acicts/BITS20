@@ -1,0 +1,41 @@
+- caption: Web development project
+  description: Learn how to maintain a project yourself. Also learn web development.
+  pdfURL: https://drive.google.com/file/d/1Ho2ZHDjONZktFkXzQ5oyzJl5tmReKEyS/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfgSv81_j8vzYjongUPcHT6Wp52MixvxR6kXcMR2N8bII-uKQ/viewform?usp=sf_link
+  category: Code
+  id: AC01
+
+- caption: Contributing to FOSS
+  description: Contribute to FOSS to sharpen your programming knowledge
+  pdfURL: https://drive.google.com/file/d/1GnvDYUxxY9WPmZWeuDBEG0HS0Ul6Zd2j/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfmXOagmCa5n4KwKMKokmRDlvXuz4Yxocfdcz1pFvgXDi6xqg/viewform?usp=sf_link
+  category: Code
+  id: AC02
+
+- caption: Advertising and promoting
+  description: Come up with an imaginary smartphone company and promote it
+  pdfURL: https://drive.google.com/file/d/1mlpZN4-YjDQVR4TRIY-SzSFABm2FcyPy/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSdSkWREbZlKyAiwcx2zzdmFnkZhAmzDc4a29HPX9tBaA2NdSg/viewform?usp=sf_link
+  category: Design
+  id: AD01
+
+- caption: Apply VFX to a video of yours
+  description: Apply VFX to a video of yours. Be creative.
+  pdfURL: https://drive.google.com/file/d/1spedbZsz_W1Nhs5D_4jfXONktR_MyeAv/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSfI8V5Bs0GkfTvuHqLES2whDTz-QopeNnf4JSEVaVHOZLopHA/viewform?usp=sf_link
+  category: Design
+  id: AD02
+
+- caption: Find solutions to everyday problems in your neighborhood
+  description: Find solutions to everyday problems in your neighborhood
+  pdfURL: https://drive.google.com/file/d/1XDhi-ZHtrihrRrV7Zcf9f5uzS9FhzDm1/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSeLpoFS0GkBkbjv8-3GzUJAez4b2d1Xfg1azxXFXjV8DIQ7FQ/viewform?usp=sf_link
+  category: Explore
+  id: AE01
+
+- caption: Write a blog about the history and development of the ICT sector in sri lanka
+  description: Write a blog about the history and development of the ICT sector in sri lanka in your words
+  pdfURL: https://drive.google.com/file/d/1gsmRzeANfHtTOzenJirTBM_7kzheYTlo/view?usp=sharing
+  submitURL: https://docs.google.com/forms/d/e/1FAIpQLSd7q35tfwQXJqBJeIAx5TAp7qAEolosY6pv3q1FeOtpiFn4eA/viewform?usp=sf_link
+  category: Explore
+  id: AE02
