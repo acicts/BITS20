@@ -8,26 +8,31 @@ change_theme: true
 
 
 <div class="row task-list" id="row1">
-
-  <!--<div class="tasks important"> 
-    <h4><b>IMPORTANT</b></h4>
-    <h4>HTML, CSS and JavaScript Coding Webinar - 02<button type="button" class="btn btn-primary" id="id">Task ID: CD02</button></h4>
-    <p>A 2 hour coding session on the 22nd of June [Monday]
-      from 6.00 pm to 8.00 pm, for all BITS Paticipants
-      on HTML, CSS and JavaScript. All who participate can
-      earn additional points.
+  <div class="tasks important" id="explain"> 
+    <h4><b>Advanced tasks are released !</b></h4>
+    <p class="explain-para">Advanced task are harder to complete compared to normal tasks. There are 2 advanced tasks for every category, Total 6 Advanced Tasks.
+      Task IDs that begins with letter "A" are advanced tasks.
+      There are many objectives for some advanced task. If you can't complete every objective, it's fine. But you will not gain those points.
+      Advanced tasks are the way to top of the leaderboards. 
+      So we highly reccomend you to focus of advanced tasks beacuse there's only one week left until the competition ends.
     </p>
-    <div class="buttons">
-
-      <a class="btn btn-info" href="https://drive.google.com/file/d/1j2wa-BS7HYaymOO277PKXh7Pe5m9zUTE/view?usp=sharing" id="catocery">More
-        Information</a>
-        <a class="btn btn-success" href="https://us02web.zoom.us/j/81138169467?pwd=RHdQSElMR3I4b2ZiTTd1K1p6eGQzQT09">Go to Meeting</a>
-      <button type="button" class="btn btn-primary" id="catocery">Code & Design</button>
     </div>
-  
-  
-</div>-->
+{% for Atask in site.data.Atasks %}
 
+<div class="tasks important" id="atask"> 
+  <h4>{{Atask.caption}} <button type="button" class="btn btn-primary" id="id">Task ID : {{Atask.id}} </button></h4>
+  <p>{{Atask.description}}</p>
+  
+  <div class="buttons">
+
+    <a class="btn btn-info" href="{{Atask.pdfURL}}" id="catocery">Task
+      Information</a>
+      <a class="btn btn-success" href="{{Atask.submitURL}}" id="catocery">Submit Task</a>
+    <button type="button" class="btn btn-primary" id="catocery">{{Atask.category}} </button>
+  </div>
+    
+</div>
+{% endfor %}
   {% for task in site.data.tasks %}
   <div class="tasks task-cat {{task.category}}">
     
