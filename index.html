@@ -9,13 +9,8 @@ change_theme: true
 
 <div class="row task-list" id="row1">
   <div class="tasks important" id="explain"> 
-    <h4><b>Advanced tasks are released !</b></h4>
-    <p class="explain-para">Advanced task are harder to complete compared to normal tasks. There are 2 advanced tasks for every category, Total 6 Advanced Tasks.
-      Task IDs that begins with letter "A" are advanced tasks.
-      There are many objectives for some advanced task. If you can't complete every objective, it's fine. But you will not gain those points.
-      Advanced tasks are the way to top of the leaderboards. 
-      So we highly reccomend you to focus of advanced tasks beacuse there's only one week left until the competition ends.
-    </p>
+    <h4><b>BITS20 competition has been ended and you can't no longer submit tasks. WINNERS WILL BE ANNOUNCED WITHIN A WEEK. Stay exited !</b></h4>
+    
     </div>
 {% for Atask in site.data.Atasks %}
 
@@ -27,7 +22,7 @@ change_theme: true
 
     <a class="btn btn-info" href="{{Atask.pdfURL}}" id="catocery">Task
       Information</a>
-      <a class="btn btn-success" href="{{Atask.submitURL}}" id="catocery">Submit Task</a>
+      
     <button type="button" class="btn btn-primary" id="catocery">{{Atask.category}} </button>
   </div>
     
@@ -43,7 +38,7 @@ change_theme: true
 
       <a class="btn btn-info" href="{{task.pdfURL}}" id="catocery">Task
         Information</a>
-        <a class="btn btn-success" href="{{task.submitURL}}" id="catocery">Submit Task</a>
+        
       <button type="button" class="btn btn-primary" id="catocery">{{task.category}} </button>
     </div>
   
