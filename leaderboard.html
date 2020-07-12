@@ -28,19 +28,19 @@ change_theme: true
 
   <table>
     <tr>
-      <th>Rank </th>
-      <th>Name</th>
-      <th>Class</th>
-      <th>No. Of Tasks Accepted</th>
-      <th>Points</th>
+      <th style="text-align: center;">Rank </th>
+      <th style="text-align: center;">Name</th>
+      <th style="text-align: center;">Class</th>
+      <th style="text-align: center;">No. Of Tasks Accepted</th>
+      <th style="text-align: center;">Points</th>
     </tr>
     {% for person in site.data.leaderboard %}
     <tr>
-      <td>{{person.index}}</td>
-      <td>{{person.name}}</td>
-      <td>{{person.class}}</td>
-      <td>{{person.tasks}}</td>
-      <td>{{person.marks}}</td>
+      <td style="text-align: center;">{{person.index}}</td>
+      <td style="text-align: center;">{{person.name}}</td>
+      <td style="text-align: center;">{{person.class}}</td>
+      <td style="text-align: center;">{{person.tasks}}</td>
+      <td style="text-align: center;">{{person.marks}}</td>
     </tr>
     {% endfor %}
   </table>
